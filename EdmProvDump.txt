@@ -1,0 +1,1610 @@
+Event filtering information for 3 processing steps is available.
+The ParameterSets will be printed out, with the oldest printed first.
+ParameterSetID: 7dc0f59a28e46d33746b3befb64e0373
+{
+  EndPathPositions: vint32 tracked  = {+0}
+  EndPaths: vstring tracked  = {'FEVTDEBUGoutput_step'}
+  InProcessHistory: bool tracked  = true
+  SelectEvents: vstring tracked  = {'generation_step'}
+ }
+     -------------------------
+ParameterSetID: e96974492601b3a1faf692633a779efc
+{
+  EndPathPositions: vint32 tracked  = {+0}
+  EndPaths: vstring tracked  = {'FEVTDEBUGHLToutput_step'}
+  InProcessHistory: bool tracked  = true
+  SelectEvents: vstring tracked  = {}
+ }
+     -------------------------
+ParameterSetID: 0b79adb080356fb798b239419ed62a43
+{
+  EndPathPositions: vint32 tracked  = {+0}
+  EndPaths: vstring tracked  = {'MINIAODSIMoutput_step'}
+  InProcessHistory: bool tracked  = true
+  SelectEvents: vstring tracked  = {}
+ }
+     -------------------------
+Processing History:
+  SIM '' '"CMSSW_8_1_0_pre9_Geant4102"' (878eb63d4cb77bfc679b644d4f8f1ecd)
+    HLT '' '"CMSSW_8_1_0"' (020f96b61e0f8ef712b03f0fd3be2574)
+      RECO '' '"CMSSW_8_1_0"' (8682f453ff82c865214b925bc1bd7a22)
+---------Producers with data in file---------
+Module: TriggerResults HLT
+ PSet id:d3210bcc62461636d4c1ade09bdb7dc0
+ products: {
+  edmTriggerResults_TriggerResults__HLT.
+ }
+ parameters: {
+  @trigger_paths: vstring tracked  = {'digitisation_step','L1simulation_step','digi2raw_step','HLTriggerFirstPath','HLT_AK8PFJet360_TrimMass30_v7','HLT_AK8PFJet400_TrimMass30_v1','HLT_AK8PFHT750_TrimMass50_v1','HLT_AK8PFHT800_TrimMass50_v1','HLT_AK8DiPFJet300_200_TrimMass30_BTagCSV_p20_v1','HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p087_v1','HLT_AK8DiPFJet300_200_TrimMass30_BTagCSV_p087_v1','HLT_AK8DiPFJet300_200_TrimMass30_v1','HLT_AK8PFHT700_TrimR0p1PT0p03Mass50_v8','HLT_AK8PFHT650_TrimR0p1PT0p03Mass50_v7','HLT_AK8PFHT600_TrimR0p1PT0p03Mass50_BTagCSV_p20_v6','HLT_AK8DiPFJet280_200_TrimMass30_v5','HLT_AK8DiPFJet250_200_TrimMass30_v5','HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV_p20_v5','HLT_AK8DiPFJet250_200_TrimMass30_BTagCSV_p20_v5','HLT_CaloJet500_NoJetID_v5','HLT_Dimuon13_PsiPrime_v6','HLT_Dimuon13_Upsilon_v6','HLT_Dimuon20_Jpsi_v6','HLT_DoubleEle24_22_eta2p1_WPLoose_Gsf_v8','HLT_DoubleEle33_CaloIdL_v7','HLT_DoubleEle33_CaloIdL_MW_v8','HLT_DoubleEle33_CaloIdL_GsfTrkIdVL_MW_v10','HLT_DoubleMediumCombinedIsoPFTau35_Trk1_eta2p1_Reg_v3','HLT_DoubleTightCombinedIsoPFTau35_Trk1_eta2p1_Reg_v3','HLT_DoubleMediumCombinedIsoPFTau40_Trk1_eta2p1_Reg_v2','HLT_DoubleTightCombinedIsoPFTau40_Trk1_eta2p1_Reg_v2','HLT_DoubleMediumCombinedIsoPFTau40_Trk1_eta2p1_v2','HLT_DoubleTightCombinedIsoPFTau40_Trk1_eta2p1_v2','HLT_DoubleEle37_Ele27_CaloIdL_GsfTrkIdVL_v7','HLT_DoubleMu33NoFiltersNoVtx_v5','HLT_DoubleMu38NoFiltersNoVtx_v5','HLT_DoubleMu23NoFiltersNoVtxDisplaced_v5','HLT_DoubleMu28NoFiltersNoVtxDisplaced_v5','HLT_DoubleMu0_v2','HLT_DoubleMu4_3_Bs_v7','HLT_DoubleMu4_3_Jpsi_Displaced_v7','HLT_DoubleMu4_JpsiTrk_Displaced_v7','HLT_DoubleMu4_LowMassNonResonantTrk_Displaced_v7','HLT_DoubleMu3_Trk_Tau3mu_v4','HLT_DoubleMu4_PsiPrimeTrk_Displaced_v7','HLT_Mu7p5_L2Mu2_Jpsi_v4','HLT_Mu7p5_L2Mu2_Upsilon_v4','HLT_Mu7p5_Track2_Jpsi_v4','HLT_Mu7p5_Track3p5_Jpsi_v4','HLT_Mu7p5_Track7_Jpsi_v4','HLT_Mu7p5_Track2_Upsilon_v4','HLT_Mu7p5_Track3p5_Upsilon_v4','HLT_Mu7p5_Track7_Upsilon_v4','HLT_Dimuon0er16_Jpsi_NoOS_NoVertexing_v4','HLT_Dimuon6_Jpsi_NoVertexing_v4','HLT_DoublePhoton60_v7','HLT_DoublePhoton85_v8','HLT_Ele20_eta2p1_WPLoose_Gsf_LooseIsoPFTau28_v3','HLT_Ele22_eta2p1_WPLoose_Gsf_LooseIsoPFTau29_v3','HLT_Ele22_eta2p1_WPLoose_Gsf_v9','HLT_Ele24_eta2p1_WPLoose_Gsf_LooseIsoPFTau30_v4','HLT_Ele25_WPTight_Gsf_v7','HLT_Ele25_eta2p1_WPTight_Gsf_v7','HLT_Ele27_WPLoose_Gsf_WHbbBoost_v9','HLT_Ele27_WPTight_Gsf_v7','HLT_Ele27_WPTight_Gsf_L1JetTauSeeded_v4','HLT_Ele27_eta2p1_WPLoose_Gsf_v8','HLT_Ele27_eta2p1_WPTight_Gsf_v8','HLT_Ele30_WPTight_Gsf_v1','HLT_Ele30_eta2p1_WPTight_Gsf_v1','HLT_Ele32_WPTight_Gsf_v1','HLT_Ele32_eta2p1_WPTight_Gsf_v8','HLT_Ele36_eta2p1_WPLoose_Gsf_LooseIsoPFTau20_SingleL1_v3','HLT_Ele45_CaloIdVT_GsfTrkIdT_PFJet200_PFJet50_v9','HLT_Ele105_CaloIdVT_GsfTrkIdT_v8','HLT_HT200_v4','HLT_HT275_v4','HLT_HT325_v4','HLT_HT425_v4','HLT_HT575_v4','HLT_HT430to450_v4','HLT_HT450to470_v4','HLT_HT470to500_v4','HLT_HT500to550_v4','HLT_HT550to650_v4','HLT_HT650_v5','HLT_IsoMu16_eta2p1_MET30_v4','HLT_IsoMu16_eta2p1_MET30_LooseIsoPFTau50_Trk30_eta2p1_v5','HLT_DoubleIsoMu17_eta2p1_noDzCut_v5','HLT_IsoMu19_eta2p1_LooseIsoPFTau20_v5','HLT_IsoMu19_eta2p1_LooseIsoPFTau20_SingleL1_v5','HLT_IsoMu19_eta2p1_MediumIsoPFTau32_Trk1_eta2p1_Reg_v5','HLT_IsoMu19_eta2p1_LooseCombinedIsoPFTau20_v1','HLT_IsoMu19_eta2p1_MediumCombinedIsoPFTau32_Trk1_eta2p1_Reg_v1','HLT_IsoMu19_eta2p1_TightCombinedIsoPFTau32_Trk1_eta2p1_Reg_v1','HLT_IsoMu21_eta2p1_MediumCombinedIsoPFTau32_Trk1_eta2p1_Reg_v1','HLT_IsoMu21_eta2p1_TightCombinedIsoPFTau32_Trk1_eta2p1_Reg_v1','HLT_IsoMu20_v6','HLT_IsoMu21_eta2p1_LooseIsoPFTau20_SingleL1_v5','HLT_IsoMu21_eta2p1_LooseIsoPFTau50_Trk30_eta2p1_SingleL1_v4','HLT_IsoMu21_eta2p1_MediumIsoPFTau32_Trk1_eta2p1_Reg_v5','HLT_IsoMu22_v5','HLT_IsoMu22_eta2p1_v4','HLT_IsoMu24_v4','HLT_IsoMu24_eta2p1_v3','HLT_IsoMu27_v7','HLT_IsoTkMu20_v7','HLT_IsoTkMu22_v5','HLT_IsoTkMu22_eta2p1_v4','HLT_IsoTkMu24_v4','HLT_IsoTkMu24_eta2p1_v3','HLT_IsoTkMu27_v7','HLT_JetE30_NoBPTX3BX_v4','HLT_JetE30_NoBPTX_v4','HLT_JetE50_NoBPTX3BX_v4','HLT_JetE70_NoBPTX3BX_v4','HLT_L1SingleMu18_v1','HLT_L2Mu10_v3','HLT_L2DoubleMu23_NoVertex_v6','HLT_L2DoubleMu28_NoVertex_2Cha_Angle2p5_Mass10_v6','HLT_L2DoubleMu38_NoVertex_2Cha_Angle2p5_Mass10_v6','HLT_L2Mu10_NoVertex_NoBPTX3BX_v2','HLT_L2Mu10_NoVertex_NoBPTX_v3','HLT_L2Mu45_NoVertex_3Sta_NoBPTX3BX_v1','HLT_L2Mu40_NoVertex_3Sta_NoBPTX3BX_v2','HLT_LooseIsoPFTau50_Trk30_eta2p1_v7','HLT_LooseIsoPFTau50_Trk30_eta2p1_MET90_v6','HLT_LooseIsoPFTau50_Trk30_eta2p1_MET110_v6','HLT_LooseIsoPFTau50_Trk30_eta2p1_MET120_v6','HLT_PFTau120_eta2p1_v5','HLT_PFTau140_eta2p1_v5','HLT_VLooseIsoPFTau120_Trk50_eta2p1_v5','HLT_VLooseIsoPFTau140_Trk50_eta2p1_v5','HLT_Mu17_Mu8_v5','HLT_Mu17_Mu8_DZ_v7','HLT_Mu17_Mu8_SameSign_v5','HLT_Mu17_Mu8_SameSign_DZ_v6','HLT_Mu20_Mu10_v5','HLT_Mu20_Mu10_DZ_v6','HLT_Mu20_Mu10_SameSign_v4','HLT_Mu20_Mu10_SameSign_DZ_v6','HLT_Mu17_TkMu8_DZ_v6','HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v6','HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_v7','HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v5','HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_DZ_v6','HLT_Mu25_TkMu0_dEta18_Onia_v6','HLT_Mu27_TkMu8_v5','HLT_Mu30_TkMu11_v5','HLT_Mu30_eta2p1_PFJet150_PFJet50_v5','HLT_Mu40_TkMu11_v5','HLT_Mu40_eta2p1_PFJet200_PFJet50_v7','HLT_Mu20_v4','HLT_TkMu17_v1','HLT_TkMu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v3','HLT_TkMu17_TrkIsoVVL_TkMu8_TrkIsoVVL_DZ_v3','HLT_TkMu20_v4','HLT_Mu24_eta2p1_v5','HLT_TkMu24_eta2p1_v5','HLT_Mu27_v5','HLT_TkMu27_v5','HLT_Mu45_eta2p1_v5','HLT_Mu50_v5','HLT_TkMu50_v3','HLT_Mu38NoFiltersNoVtx_Photon38_CaloIdL_v7','HLT_Mu42NoFiltersNoVtx_Photon42_CaloIdL_v7','HLT_Mu28NoFiltersNoVtxDisplaced_Photon28_CaloIdL_v7','HLT_Mu33NoFiltersNoVtxDisplaced_Photon33_CaloIdL_v7','HLT_Mu23NoFiltersNoVtx_Photon23_CaloIdL_v7','HLT_DoubleMu18NoFiltersNoVtx_v5','HLT_Mu28NoFiltersNoVtx_DisplacedJet40_Loose_v5','HLT_Mu38NoFiltersNoVtxDisplaced_DisplacedJet60_Tight_v5','HLT_Mu38NoFiltersNoVtxDisplaced_DisplacedJet60_Loose_v5','HLT_Mu38NoFiltersNoVtx_DisplacedJet60_Loose_v5','HLT_Mu28NoFiltersNoVtx_CentralCaloJet40_v5','HLT_PFHT300_PFMET110_v6','HLT_PFHT550_4JetPt50_v6','HLT_PFHT650_4JetPt50_v6','HLT_PFHT750_4JetPt70_v2','HLT_PFHT750_4JetPt80_v2','HLT_PFHT800_4JetPt50_v2','HLT_PFHT850_4JetPt50_v2','HLT_PFJet15_NoCaloMatched_v7','HLT_PFJet25_NoCaloMatched_v5','HLT_DiPFJet15_NoCaloMatched_v5','HLT_DiPFJet25_NoCaloMatched_v5','HLT_DiPFJet15_FBEta3_NoCaloMatched_v6','HLT_DiPFJet25_FBEta3_NoCaloMatched_v6','HLT_DiPFJetAve15_HFJEC_v6','HLT_DiPFJetAve25_HFJEC_v6','HLT_DiPFJetAve35_HFJEC_v6','HLT_AK8PFJet40_v5','HLT_AK8PFJet60_v4','HLT_AK8PFJet80_v4','HLT_AK8PFJet140_v4','HLT_AK8PFJet200_v4','HLT_AK8PFJet260_v5','HLT_AK8PFJet320_v5','HLT_AK8PFJet400_v5','HLT_AK8PFJet450_v5','HLT_AK8PFJet500_v5','HLT_PFJet40_v9','HLT_PFJet60_v9','HLT_PFJet80_v8','HLT_PFJet140_v8','HLT_PFJet200_v8','HLT_PFJet260_v9','HLT_PFJet320_v9','HLT_PFJet400_v9','HLT_PFJet450_v9','HLT_PFJet500_v9','HLT_DiPFJetAve40_v8','HLT_DiPFJetAve60_v8','HLT_DiPFJetAve80_v7','HLT_DiPFJetAve140_v7','HLT_DiPFJetAve200_v7','HLT_DiPFJetAve260_v8','HLT_DiPFJetAve320_v8','HLT_DiPFJetAve400_v8','HLT_DiPFJetAve500_v8','HLT_DiPFJetAve60_HFJEC_v8','HLT_DiPFJetAve80_HFJEC_v8','HLT_DiPFJetAve100_HFJEC_v8','HLT_DiPFJetAve160_HFJEC_v8','HLT_DiPFJetAve220_HFJEC_v9','HLT_DiPFJetAve300_HFJEC_v9','HLT_DiPFJet40_DEta3p5_MJJ600_PFMETNoMu140_v6','HLT_DiPFJet40_DEta3p5_MJJ600_PFMETNoMu80_v5','HLT_DiCentralPFJet170_v5','HLT_SingleCentralPFJet170_CFMax0p1_v5','HLT_DiCentralPFJet170_CFMax0p1_v5','HLT_DiCentralPFJet330_CFMax0p5_v5','HLT_DiCentralPFJet430_v5','HLT_DiJetVBF_PassThrough_v1','HLT_DiJetVBFMu_PassThrough_v1','HLT_PFHT125_v5','HLT_PFHT200_v6','HLT_PFHT250_v6','HLT_PFHT300_v7','HLT_PFHT350_v8','HLT_PFHT400_v7','HLT_PFHT475_v7','HLT_PFHT600_v8','HLT_PFHT650_v8','HLT_PFHT900_v6','HLT_PFHT200_PFAlphaT0p51_v8','HLT_PFHT200_DiPFJetAve90_PFAlphaT0p63_v8','HLT_PFHT250_DiPFJetAve90_PFAlphaT0p58_v8','HLT_PFHT300_DiPFJetAve90_PFAlphaT0p54_v8','HLT_PFHT350_DiPFJetAve90_PFAlphaT0p53_v8','HLT_PFHT400_DiPFJetAve90_PFAlphaT0p52_v8','HLT_MET60_IsoTrk35_Loose_v3','HLT_MET75_IsoTrk50_v6','HLT_MET90_IsoTrk50_v6','HLT_PFMET170_NotCleaned_v8','HLT_PFMET170_HBHECleaned_v9','HLT_PFMET170_BeamHaloCleaned_v7','HLT_PFMET170_HBHE_BeamHaloCleaned_v5','HLT_PFMETTypeOne190_HBHE_BeamHaloCleaned_v5','HLT_PFMET110_PFMHT110_IDTight_v8','HLT_PFMET120_PFMHT120_IDTight_v8','HLT_CaloMHTNoPU90_PFMET90_PFMHT90_IDTight_BTagCSV_p067_v7','HLT_CaloMHTNoPU90_PFMET90_PFMHT90_IDTight_v8','HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq200_v5','HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq460_v5','HLT_QuadPFJet_BTagCSV_p016_p11_VBF_Mqq240_v5','HLT_QuadPFJet_BTagCSV_p016_VBF_Mqq500_v5','HLT_QuadPFJet_VBF_v8','HLT_L1_TripleJet_VBF_v5','HLT_QuadJet45_TripleBTagCSV_p087_v6','HLT_QuadJet45_DoubleBTagCSV_p087_v6','HLT_DoubleJet90_Double30_TripleBTagCSV_p087_v5','HLT_DoubleJet90_Double30_DoubleBTagCSV_p087_v5','HLT_DoubleJetsC100_DoubleBTagCSV_p026_DoublePFJetsC160_v5','HLT_DoubleJetsC100_DoubleBTagCSV_p014_DoublePFJetsC100MaxDeta1p6_v5','HLT_DoubleJetsC112_DoubleBTagCSV_p026_DoublePFJetsC172_v5','HLT_DoubleJetsC112_DoubleBTagCSV_p014_DoublePFJetsC112MaxDeta1p6_v5','HLT_DoubleJetsC100_SingleBTagCSV_p026_v3','HLT_DoubleJetsC100_SingleBTagCSV_p014_v3','HLT_DoubleJetsC100_SingleBTagCSV_p026_SinglePFJetC350_v5','HLT_DoubleJetsC100_SingleBTagCSV_p014_SinglePFJetC350_v5','HLT_Photon135_PFMET100_v8','HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_PFMET40_v9','HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v7','HLT_Photon250_NoHE_v7','HLT_Photon300_NoHE_v7','HLT_Photon26_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon16_AND_HE10_R9Id65_Eta2_Mass60_v9','HLT_Photon36_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon22_AND_HE10_R9Id65_Eta2_Mass15_v9','HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_PFMET40_v9','HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v8','HLT_Photon50_R9Id90_HE10_Iso40_EBOnly_PFMET40_v9','HLT_Photon50_R9Id90_HE10_Iso40_EBOnly_VBF_v7','HLT_Photon75_R9Id90_HE10_Iso40_EBOnly_PFMET40_v9','HLT_Photon75_R9Id90_HE10_Iso40_EBOnly_VBF_v7','HLT_Photon90_R9Id90_HE10_Iso40_EBOnly_PFMET40_v9','HLT_Photon90_R9Id90_HE10_Iso40_EBOnly_VBF_v7','HLT_Photon120_R9Id90_HE10_Iso40_EBOnly_PFMET40_v9','HLT_Photon120_R9Id90_HE10_Iso40_EBOnly_VBF_v7','HLT_Mu8_TrkIsoVVL_v5','HLT_Mu17_TrkIsoVVL_v4','HLT_Ele8_CaloIdL_TrackIdL_IsoVL_PFJet30_v7','HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v9','HLT_Ele17_CaloIdL_TrackIdL_IsoVL_PFJet30_v7','HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v9','HLT_BTagMu_DiJet20_Mu5_v5','HLT_BTagMu_DiJet40_Mu5_v5','HLT_BTagMu_DiJet70_Mu5_v5','HLT_BTagMu_DiJet110_Mu5_v5','HLT_BTagMu_DiJet170_Mu5_v4','HLT_BTagMu_Jet300_Mu5_v5','HLT_BTagMu_AK8Jet300_Mu5_v4','HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v9','HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_L1JetTauSeeded_v3','HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v9','HLT_Ele16_Ele12_Ele8_CaloIdL_TrackIdL_v8','HLT_Mu8_TrkIsoVVL_Ele17_CaloIdL_TrackIdL_IsoVL_v9','HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_v4','HLT_Mu12_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_v3','HLT_Mu12_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_v4','HLT_Mu17_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL_v9','HLT_Mu23_TrkIsoVVL_Ele8_CaloIdL_TrackIdL_IsoVL_DZ_v3','HLT_Mu23_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL_v9','HLT_Mu23_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v4','HLT_Mu33_Ele33_CaloIdL_GsfTrkIdVL_v3','HLT_Mu37_Ele27_CaloIdL_GsfTrkIdVL_v6','HLT_Mu27_Ele37_CaloIdL_GsfTrkIdVL_v6','HLT_Mu8_DiEle12_CaloIdL_TrackIdL_v9','HLT_Mu12_Photon25_CaloIdL_v8','HLT_Mu12_Photon25_CaloIdL_L1ISO_v8','HLT_Mu12_Photon25_CaloIdL_L1OR_v8','HLT_Mu17_Photon30_CaloIdL_L1ISO_v9','HLT_Mu17_Photon35_CaloIdL_L1ISO_v9','HLT_DiMu9_Ele9_CaloIdL_TrackIdL_v8','HLT_TripleMu_5_3_3_DZ_Mass3p8_v1','HLT_TripleMu_12_10_5_v4','HLT_Mu6_PFHT200_PFMET100_v5','HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_v9','HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_v9','HLT_Ele12_CaloIdL_TrackIdL_IsoVL_v8','HLT_Ele17_CaloIdL_GsfTrkIdVL_v6','HLT_Ele17_CaloIdL_TrackIdL_IsoVL_v7','HLT_Ele23_CaloIdL_TrackIdL_IsoVL_v8','HLT_PFHT650_WideJetMJJ900DEtaJJ1p5_v8','HLT_PFHT650_WideJetMJJ950DEtaJJ1p5_v8','HLT_Photon22_v6','HLT_Photon30_v7','HLT_Photon36_v7','HLT_Photon50_v7','HLT_Photon75_v7','HLT_Photon90_v7','HLT_Photon120_v7','HLT_Photon175_v8','HLT_Photon165_HE10_v8','HLT_Photon22_R9Id90_HE10_IsoM_v7','HLT_Photon30_R9Id90_HE10_IsoM_v8','HLT_Photon36_R9Id90_HE10_IsoM_v8','HLT_Photon50_R9Id90_HE10_IsoM_v8','HLT_Photon75_R9Id90_HE10_IsoM_v8','HLT_Photon90_R9Id90_HE10_IsoM_v8','HLT_Photon120_R9Id90_HE10_IsoM_v8','HLT_Photon165_R9Id90_HE10_IsoM_v9','HLT_Diphoton30_18_R9Id_OR_IsoCaloId_AND_HE_R9Id_Mass90_v7','HLT_Diphoton30_18_R9Id_OR_IsoCaloId_AND_HE_R9Id_DoublePixelSeedMatch_Mass70_v7','HLT_Diphoton30PV_18PV_R9Id_AND_IsoCaloId_AND_HE_R9Id_DoublePixelVeto_Mass55_v7','HLT_Diphoton30_18_Solid_R9Id_AND_IsoCaloId_AND_HE_R9Id_Mass55_v7','HLT_Diphoton30EB_18EB_R9Id_OR_IsoCaloId_AND_HE_R9Id_DoublePixelVeto_Mass55_v7','HLT_Dimuon0_Jpsi_Muon_v5','HLT_Dimuon0_Upsilon_Muon_v5','HLT_QuadMuon0_Dimuon0_Jpsi_v4','HLT_QuadMuon0_Dimuon0_Upsilon_v4','HLT_Rsq0p25_v6','HLT_Rsq0p30_v6','HLT_RsqMR270_Rsq0p09_MR200_v6','HLT_RsqMR270_Rsq0p09_MR200_4jet_v6','HLT_Rsq0p02_MR400_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200_v3','HLT_Rsq0p02_MR450_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200_v3','HLT_Rsq0p02_MR500_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200_v2','HLT_Rsq0p02_MR550_TriPFJet80_60_40_DoubleBTagCSV_p063_Mbb60_200_v2','HLT_HT250_DisplacedDijet40_DisplacedTrack_v5','HLT_HT350_DisplacedDijet40_DisplacedTrack_v5','HLT_HT350_DisplacedDijet80_DisplacedTrack_v5','HLT_HT350_DisplacedDijet80_Tight_DisplacedTrack_v5','HLT_HT350_DisplacedDijet40_Inclusive_v4','HLT_HT550_DisplacedDijet80_Inclusive_v2','HLT_HT650_DisplacedDijet80_Inclusive_v5','HLT_HT750_DisplacedDijet80_Inclusive_v5','HLT_VBF_DisplacedJet40_DisplacedTrack_v5','HLT_VBF_DisplacedJet40_DisplacedTrack_2TrackIP2DSig5_v5','HLT_VBF_DisplacedJet40_TightID_DisplacedTrack_v5','HLT_VBF_DisplacedJet40_TightID_Hadronic_v5','HLT_VBF_DisplacedJet40_VTightID_Hadronic_v5','HLT_VBF_DisplacedJet40_VVTightID_Hadronic_v5','HLT_VBF_DisplacedJet40_VTightID_DisplacedTrack_v5','HLT_VBF_DisplacedJet40_VVTightID_DisplacedTrack_v5','HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_v8','HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v8','HLT_MonoCentralPFJet80_PFMETNoMu110_PFMHTNoMu110_IDTight_v8','HLT_MonoCentralPFJet80_PFMETNoMu120_PFMHTNoMu120_IDTight_v8','HLT_Ele27_eta2p1_WPLoose_Gsf_HT200_v10','HLT_DoubleMu8_Mass8_PFHT300_v9','HLT_Mu8_Ele8_CaloIdM_TrackIdM_Mass8_PFHT300_v10','HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v10','HLT_Mu10_CentralPFJet30_BTagCSV_p13_v5','HLT_DoubleMu3_PFMET50_v6','HLT_Ele10_CaloIdM_TrackIdM_CentralPFJet30_BTagCSV_p13_v7','HLT_Ele15_IsoVVVL_BTagCSV_p067_PFHT400_v7','HLT_Ele15_IsoVVVL_PFHT600_v9','HLT_Ele15_IsoVVVL_PFHT400_PFMET50_v6','HLT_Ele15_IsoVVVL_PFHT400_v6','HLT_Ele50_IsoVVVL_PFHT400_v6','HLT_Mu8_TrkIsoVVL_DiPFJet40_DEta3p5_MJJ750_HTT300_PFMETNoMu60_v4','HLT_Mu10_TrkIsoVVL_DiPFJet40_DEta3p5_MJJ750_HTT350_PFMETNoMu60_v5','HLT_Mu15_IsoVVVL_BTagCSV_p067_PFHT400_v6','HLT_Mu15_IsoVVVL_PFHT600_v8','HLT_Mu15_IsoVVVL_PFHT400_PFMET50_v5','HLT_Mu15_IsoVVVL_PFHT400_v5','HLT_Mu50_IsoVVVL_PFHT400_v5','HLT_Dimuon16_Jpsi_v6','HLT_Dimuon8_PsiPrime_Barrel_v6','HLT_Dimuon8_Upsilon_Barrel_v6','HLT_Dimuon0_Phi_Barrel_v6','HLT_TrkMu15_DoubleTrkMu5NoFiltersNoVtx_v6','HLT_TrkMu17_DoubleTrkMu8NoFiltersNoVtx_v6','HLT_Mu8_v5','HLT_Mu17_v4','HLT_Mu3_PFJet40_v6','HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v9','HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v9','HLT_Ele17_CaloIdM_TrackIdM_PFJet30_v7','HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v9','HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165_v7','HLT_PFHT400_SixJet30_DoubleBTagCSV_p056_v6','HLT_PFHT450_SixJet40_BTagCSV_p056_v6','HLT_PFHT400_SixJet30_v8','HLT_PFHT450_SixJet40_v8','HLT_Ele115_CaloIdVT_GsfTrkIdT_v7','HLT_Ele145_CaloIdVT_GsfTrkIdT_v1','HLT_Ele200_CaloIdVT_GsfTrkIdT_v1','HLT_Mu55_v4','HLT_Photon42_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon25_AND_HE10_R9Id65_Eta2_Mass15_v9','HLT_Photon90_CaloIdL_PFHT600_v8','HLT_FullTracks_Multiplicity80_v4','HLT_FullTracks_Multiplicity100_v5','HLT_FullTracks_Multiplicity130_v5','HLT_FullTracks_Multiplicity150_v5','HLT_ECALHT800_v6','HLT_DiSC30_18_EIso_AND_HE_Mass70_v6','HLT_MET200_v5','HLT_Ele27_HighEta_Ele20_Mass55_v8','HLT_L1FatEvents_v2','HLT_Physics_v5','HLT_L1FatEvents_part0_v1','HLT_L1FatEvents_part1_v1','HLT_L1FatEvents_part2_v1','HLT_L1FatEvents_part3_v1','DST_Physics_v5','DST_CaloJet40_BTagScouting_v7','DST_CaloJet40_CaloScouting_PFScouting_v7','DST_CaloJet40_CaloBTagScouting_v6','DST_L1HTT_BTagScouting_v7','DST_L1HTT_CaloScouting_PFScouting_v7','DST_L1HTT_CaloBTagScouting_v6','DST_HT250_CaloScouting_v5','DST_HT250_CaloBTagScouting_v3','DST_HT410_BTagScouting_v7','DST_HT410_PFScouting_v7','DST_HT450_BTagScouting_v7','DST_HT450_PFScouting_v7','DST_ZeroBias_CaloScouting_PFScouting_v6','DST_ZeroBias_BTagScouting_v7','DST_L1DoubleMu_BTagScouting_v8','DST_L1DoubleMu_CaloScouting_PFScouting_v7','DST_DoubleMu3_Mass10_BTagScouting_v8','DST_DoubleMu3_Mass10_CaloScouting_PFScouting_v7','HLT_Random_v2','HLT_ZeroBias_v4','HLT_AK4CaloJet30_v5','HLT_AK4CaloJet40_v4','HLT_AK4CaloJet50_v4','HLT_AK4CaloJet80_v4','HLT_AK4CaloJet100_v4','HLT_AK4PFJet30_v7','HLT_AK4PFJet50_v7','HLT_AK4PFJet80_v7','HLT_AK4PFJet100_v7','HLT_HISinglePhoton10_v4','HLT_HISinglePhoton15_v4','HLT_HISinglePhoton20_v4','HLT_HISinglePhoton40_v4','HLT_HISinglePhoton60_v4','HLT_EcalCalibration_v3','HLT_HcalCalibration_v4','AlCa_EcalPhiSym_v6','AlCa_SingleEle_WPVeryLoose_Gsf_v7','AlCa_DoubleEle_CaloIdL_TrackIdL_IsoVL_DZ_v6','AlCa_DoubleEle_CaloIdL_TrackIdL_IsoVL_v6','HLT_GlobalRunHPDNoise_v4','HLT_L1BptxMinus_v2','HLT_L1BptxPlus_v2','HLT_L1NotBptxOR_v2','HLT_L1MinimumBiasHF_OR_part0_v2','HLT_L1MinimumBiasHF_OR_part1_v2','HLT_L1MinimumBiasHF_OR_part2_v2','HLT_L1MinimumBiasHF_OR_part3_v2','HLT_L1MinimumBiasHF_OR_part4_v2','HLT_L1MinimumBiasHF_OR_part5_v2','HLT_L1MinimumBiasHF_OR_part6_v2','HLT_L1MinimumBiasHF_OR_part7_v2','HLT_L1MinimumBiasHF_OR_part8_v2','HLT_L1MinimumBiasHF_OR_part9_v2','HLT_L1MinimumBiasHF_AND_v2','HLT_HcalNZS_v10','HLT_HcalPhiSym_v11','HLT_HcalIsolatedbunch_v2','HLT_ZeroBias_FirstCollisionAfterAbortGap_v3','HLT_ZeroBias_FirstCollisionAfterAbortGap_copy_v1','HLT_ZeroBias_IsolatedBunches_v3','HLT_ZeroBias_FirstCollisionInTrain_v1','HLT_ZeroBias_FirstBXAfterTrain_v1','AlCa_RPCMuonNoTriggers_v10','AlCa_RPCMuonNoHits_v10','AlCa_RPCMuonNormalisation_v10','AlCa_LumiPixels_Random_v2','AlCa_LumiPixels_ZeroBias_v5','MC_ReducedIterativeTracking_v3','MC_PFMET_v6','MC_AK4PFJets_v6','MC_PFHT_v6','MC_PFMHT_v6','MC_CaloMET_v3','MC_CaloMET_JetIdCleaned_v3','MC_AK4CaloJets_v3','MC_CaloHT_v3','MC_CaloMHT_v3','MC_AK8PFJets_v6','MC_AK8TrimPFJets_v6','MC_AK8PFHT_v6','MC_AK8CaloHT_v3','MC_Diphoton10_10_R9Id_OR_IsoCaloId_AND_HE_R9Id_Mass10_v6','MC_DoubleEle5_CaloIdL_GsfTrkIdVL_MW_v6','MC_Ele5_WPLoose_Gsf_v8','MC_Ele15_Ele10_CaloIdL_TrackIdL_IsoVL_DZ_v7','MC_IsoMu_v7','MC_IsoTkMu15_v6','MC_DoubleMu_TrkIsoVVL_DZ_v4','MC_DoubleGlbTrkMu_TrkIsoVVL_DZ_v4','MC_DoubleMuNoFiltersNoVtx_v3','MC_DoubleL1Tau_MediumIsoPFTau32_Trk1_eta2p1_Reg_v6','MC_LooseIsoPFTau20_v5','MC_LooseIsoPFTau50_Trk30_eta2p1_v4','HLT_Photon500_v6','HLT_Photon600_v6','HLT_Mu300_v3','HLT_Mu350_v3','HLT_MET250_v5','HLT_MET300_v5','HLT_MET600_v5','HLT_MET700_v5','HLT_PFMET300_v7','HLT_PFMET400_v7','HLT_PFMET500_v7','HLT_PFMET600_v7','HLT_Ele250_CaloIdVT_GsfTrkIdT_v6','HLT_Ele300_CaloIdVT_GsfTrkIdT_v6','HLT_HT2000_v5','HLT_HT2500_v5','HLT_IsoTrackHE_v3','HLT_IsoTrackHB_v3','AlCa_EcalPi0EBonly_v8','AlCa_EcalPi0EEonly_v8','AlCa_EcalEtaEBonly_v8','AlCa_EcalEtaEEonly_v8','HLTriggerFinalPath'}
+ }
+
+Module: BeamHaloSummary RECO
+ PSet id:07c899cc8ab0979fc7224e404bfd5a91
+ products: {
+  recoBeamHaloSummary_BeamHaloSummary__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'BeamHaloSummary'
+  @module_type: string tracked  = 'BeamHaloSummaryProducer'
+  CSCHaloDataLabel: InputTag tracked  = CSCHaloData
+  EcalHaloDataLabel: InputTag tracked  = EcalHaloData
+  GlobalHaloDataLabel: InputTag tracked  = GlobalHaloData
+  HcalHaloDataLabel: InputTag tracked  = HcalHaloData
+  l_EcalPhiWedgeConfidence: double tracked  = 0.7
+  l_EcalPhiWedgeConstituents: int32 tracked  = 6
+  l_EcalPhiWedgeEnergy: double tracked  = 10
+  l_EcalPhiWedgeToF: double tracked  = -200
+  l_EcalShowerShapesAngle: double tracked  = 0.51
+  l_EcalShowerShapesRoundness: double tracked  = 0.41
+  l_EcalSuperClusterEnergy: double tracked  = 10
+  l_EcalSuperClusterSize: int32 tracked  = 3
+  l_HcalPhiWedgeConfidence: double tracked  = 0.7
+  l_HcalPhiWedgeConstituents: int32 tracked  = 6
+  l_HcalPhiWedgeEnergy: double tracked  = 20
+  l_HcalPhiWedgeToF: double tracked  = -100
+  problematicStripMinLength: int32 tracked  = 6
+  t_EcalPhiWedgeConfidence: double tracked  = 0.9
+  t_EcalPhiWedgeConstituents: int32 tracked  = 8
+  t_EcalPhiWedgeEnergy: double tracked  = 20
+  t_EcalPhiWedgeToF: double tracked  = -200
+  t_EcalShowerShapesAngle: double tracked  = 0.51
+  t_EcalShowerShapesRoundness: double tracked  = 0.23
+  t_EcalSuperClusterEnergy: double tracked  = 10
+  t_EcalSuperClusterSize: int32 tracked  = 3
+  t_HcalPhiWedgeConfidence: double tracked  = 0.9
+  t_HcalPhiWedgeConstituents: int32 tracked  = 8
+  t_HcalPhiWedgeEnergy: double tracked  = 25
+  t_HcalPhiWedgeToF: double tracked  = -100
+ }
+
+Module: CSCHaloData RECO
+ PSet id:aa3ffcce304c515a9a37b268822f2f2d
+ products: {
+  recoCSCHaloData_CSCHaloData__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'CSCHaloData'
+  @module_type: string tracked  = 'CSCHaloDataProducer'
+  ALCTDigiLabel: InputTag tracked  = muonCSCDigis:MuonCSCALCTDigi
+  CSCRecHitLabel: InputTag tracked  = csc2DRecHits
+  CSCSegmentLabel: InputTag tracked  = cscSegments
+  CosmicMuonLabel: InputTag tracked  = muonsFromCosmics
+  DetaParam: double tracked  = 0.1
+  DphiParam: double tracked  = 1
+  ECALBrhLabel: InputTag tracked  = ecalRecHit:EcalRecHitsEB
+  ECALErhLabel: InputTag tracked  = ecalRecHit:EcalRecHitsEE
+  ExpectedBX: int32 tracked  = 6
+  HBHErhLabel: InputTag tracked  = hbhereco
+  HLTBitLabel: VInputTag tracked  = {HLT_CSCBeamHalo,HLT_CSCBeamHaloOverlapRing1,HLT_CSCBeamHaloOverlapRing2,HLT_CSCBeamHaloRing2or3}
+  HLTResultLabel: InputTag tracked  = TriggerResults::HLT
+  InnerRMaxParam: double tracked  = 99999
+  InnerRMinParam: double tracked  = 0
+  L1MuGMTReadoutLabel: InputTag tracked  = gtDigis
+  MatchingDEtaThreshold: double tracked  = 0.4
+  MatchingDPhiThreshold: double tracked  = 0.18
+  MatchingDWireThreshold: int32 tracked  = 5
+  MaxDtMuonSegment: double tracked  = -10
+  MaxFreeInverseBeta: double tracked  = 0
+  MaxOuterMomentumTheta: double tracked  = 3
+  MaxSegmentPhiDiff: double tracked  = 0.1
+  MaxSegmentRDiff: double tracked  = 10
+  MaxSegmentTheta: double tracked  = 0.7
+  MinOuterMomentumTheta: double tracked  = 0.1
+  MuonLabel: InputTag tracked  = muons
+  NormChi2Param: double tracked  = 8
+  OuterRMaxParam: double tracked  = 99999
+  OuterRMinParam: double tracked  = 0
+  RecHitTime0: double tracked  = 0
+  RecHitTimeWindow: double tracked  = 25
+  SALabel: InputTag tracked  = standAloneMuons
+  MatchParameters: PSet tracked = ({
+   CSCsegments: InputTag tracked  = cscSegments
+   DTradius: double tracked  = 0.01
+   DTsegments: InputTag tracked  = dt4DSegments
+   RPChits: InputTag tracked  = rpcRecHits
+   TightMatchCSC: bool tracked  = true
+   TightMatchDT: bool tracked  = false
+  })
+ }
+
+Module: TriggerResults RECO
+ PSet id:5d645f97301fee152164a373d072cd0d
+ products: {
+  edmTriggerResults_TriggerResults__RECO.
+ }
+ parameters: {
+  @trigger_paths: vstring tracked  = {'raw2digi_step','L1Reco_step','reconstruction_step','eventinterpretaion_step','Flag_HBHENoiseFilter','Flag_HBHENoiseIsoFilter','Flag_CSCTightHaloFilter','Flag_CSCTightHaloTrkMuUnvetoFilter','Flag_CSCTightHalo2015Filter','Flag_globalTightHalo2016Filter','Flag_globalSuperTightHalo2016Filter','Flag_HcalStripHaloFilter','Flag_hcalLaserEventFilter','Flag_EcalDeadCellTriggerPrimitiveFilter','Flag_EcalDeadCellBoundaryEnergyFilter','Flag_goodVertices','Flag_eeBadScFilter','Flag_ecalLaserCorrFilter','Flag_trkPOGFilters','Flag_chargedHadronTrackResolutionFilter','Flag_muonBadTrackFilter','Flag_trkPOG_manystripclus53X','Flag_trkPOG_toomanystripclus53X','Flag_trkPOG_logErrorTooManyClusters','Flag_METFilters','prevalidation_step','prevalidation_step1'}
+ }
+
+Module: bunchSpacingProducer RECO
+ PSet id:a1cb7bd9446ced453796afbf6fcd6e34
+ products: {
+  uint_bunchSpacingProducer__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'bunchSpacingProducer'
+  @module_type: string tracked  = 'BunchSpacingProducer'
+  bunchSpacingOverride: uint32 tracked  = 25
+  overrideBunchSpacing: bool tracked  = false
+ }
+
+Module: caloStage2Digis RECO
+ PSet id:3a6432f4b80596aa3f3249d1bbd0ba7c
+ products: {
+  l1tEGammaBXVector_caloStage2Digis_EGamma_RECO.
+  l1tEtSumBXVector_caloStage2Digis_EtSum_RECO.
+  l1tJetBXVector_caloStage2Digis_Jet_RECO.
+  l1tTauBXVector_caloStage2Digis_Tau_RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'caloStage2Digis'
+  @module_type: string tracked  = 'L1TRawToDigi'
+  FWId: uint32 tracked  = 0
+  FWOverride: bool tracked  = false
+  FedIds: vint32 tracked  = {+1360,+1366}
+  InputLabel: InputTag tracked  = rawDataCollector
+  MinFeds: uint32 tracked  = 1
+  Setup: string tracked  = 'stage2::CaloSetup'
+ }
+
+Module: fixedGridRhoAll RECO
+ PSet id:dbc9f0ed3a4283b8dfd62ff46cf22455
+ products: {
+  double_fixedGridRhoAll__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'fixedGridRhoAll'
+  @module_type: string tracked  = 'FixedGridRhoProducer'
+  EtaRegion: string tracked  = 'All'
+  pfCandidatesTag: InputTag tracked  = particleFlow
+ }
+
+Module: fixedGridRhoFastjetAll RECO
+ PSet id:ea41f5f5c7318d723395bf8c88e1a4ac
+ products: {
+  double_fixedGridRhoFastjetAll__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'fixedGridRhoFastjetAll'
+  @module_type: string tracked  = 'FixedGridRhoProducerFastjet'
+  gridSpacing: double tracked  = 0.55
+  maxRapidity: double tracked  = 5
+  pfCandidatesTag: InputTag tracked  = particleFlow
+ }
+
+Module: fixedGridRhoFastjetAllCalo RECO
+ PSet id:45f52d2c5add16167dfb9f092af6bfaa
+ products: {
+  double_fixedGridRhoFastjetAllCalo__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'fixedGridRhoFastjetAllCalo'
+  @module_type: string tracked  = 'FixedGridRhoProducerFastjet'
+  gridSpacing: double tracked  = 0.55
+  maxRapidity: double tracked  = 5
+  pfCandidatesTag: InputTag tracked  = towerMaker
+ }
+
+Module: fixedGridRhoFastjetCentral RECO
+ PSet id:396db3e6f07cd9283a50281568b3a75b
+ products: {
+  double_fixedGridRhoFastjetCentral__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'fixedGridRhoFastjetCentral'
+  @module_type: string tracked  = 'FixedGridRhoProducerFastjet'
+  gridSpacing: double tracked  = 0.55
+  maxRapidity: double tracked  = 2.5
+  pfCandidatesTag: InputTag tracked  = particleFlow
+ }
+
+Module: fixedGridRhoFastjetCentralCalo RECO
+ PSet id:fca184b1f26a31983527801f10212789
+ products: {
+  double_fixedGridRhoFastjetCentralCalo__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'fixedGridRhoFastjetCentralCalo'
+  @module_type: string tracked  = 'FixedGridRhoProducerFastjet'
+  gridSpacing: double tracked  = 0.55
+  maxRapidity: double tracked  = 2.5
+  pfCandidatesTag: InputTag tracked  = towerMaker
+ }
+
+Module: fixedGridRhoFastjetCentralChargedPileUp RECO
+ PSet id:11f1f4127aa2da108f1d42fb47229047
+ products: {
+  double_fixedGridRhoFastjetCentralChargedPileUp__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'fixedGridRhoFastjetCentralChargedPileUp'
+  @module_type: string tracked  = 'FixedGridRhoProducerFastjet'
+  gridSpacing: double tracked  = 0.55
+  maxRapidity: double tracked  = 2.5
+  pfCandidatesTag: InputTag tracked  = pfPileUpAllChargedParticles
+ }
+
+Module: fixedGridRhoFastjetCentralNeutral RECO
+ PSet id:1bd457364fbefb45253f158fc017b253
+ products: {
+  double_fixedGridRhoFastjetCentralNeutral__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'fixedGridRhoFastjetCentralNeutral'
+  @module_type: string tracked  = 'FixedGridRhoProducerFastjet'
+  gridSpacing: double tracked  = 0.55
+  maxRapidity: double tracked  = 2.5
+  pfCandidatesTag: InputTag tracked  = pfAllNeutralHadronsAndPhotons
+ }
+
+Module: gmtStage2Digis RECO
+ PSet id:3e85ce43fc768cc918fa1d41695b99e9
+ products: {
+  l1tMuonBXVector_gmtStage2Digis_Muon_RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'gmtStage2Digis'
+  @module_type: string tracked  = 'L1TRawToDigi'
+  FWId: uint32 tracked  = 0
+  FWOverride: bool tracked  = false
+  FedIds: vint32 tracked  = {+1402}
+  InputLabel: InputTag tracked  = rawDataCollector
+  MinFeds: uint32 tracked  = 1
+  Setup: string tracked  = 'stage2::GMTSetup'
+ }
+
+Module: gtDigis RECO
+ PSet id:de3e69b2b305eb03faaa1de4c2fd2237
+ products: {
+  L1GlobalTriggerReadoutRecord_gtDigis__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'gtDigis'
+  @module_type: string tracked  = 'L1GlobalTriggerRawToDigi'
+  ActiveBoardsMask: uint32 tracked  = 65535
+  DaqGtInputTag: InputTag tracked  = rawDataCollector
+  UnpackBxInEvent: int32 tracked  = -1
+ }
+
+Module: gtStage2Digis RECO
+ PSet id:ed8412d30802a9a1d3e6f80069568a1d
+ products: {
+  GlobalAlgBlkBXVector_gtStage2Digis__RECO.
+  GlobalExtBlkBXVector_gtStage2Digis__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'gtStage2Digis'
+  @module_type: string tracked  = 'L1TRawToDigi'
+  FWId: uint32 tracked  = 0
+  FWOverride: bool tracked  = false
+  FedIds: vint32 tracked  = {+1404}
+  InputLabel: InputTag tracked  = rawDataCollector
+  MinFeds: uint32 tracked  = 1
+  Setup: string tracked  = 'stage2::GTSetup'
+ }
+
+Module: hcalnoise RECO
+ PSet id:3ee908548b5880b89d47bd9cb92565b0
+ products: {
+  HcalNoiseSummary_hcalnoise__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'hcalnoise'
+  @module_type: string tracked  = 'HcalNoiseInfoProducer'
+  HcalAcceptSeverityLevel: uint32 tracked  = 9
+  HcalRecHitFlagsToBeExcluded: vint32 tracked  = {+11,+12,+13,+14,+15,+27}
+  TS4TS5EnergyThreshold: double tracked  = 50
+  TS4TS5LowerCut: vdouble tracked  = {-1,-0.7,-0.4,-0.2,-0.08,0,0.1}
+  TS4TS5LowerThreshold: vdouble tracked  = {100,120,150,200,300,400,500}
+  TS4TS5UpperCut: vdouble tracked  = {1,0.8,0.75,0.72,0.72}
+  TS4TS5UpperThreshold: vdouble tracked  = {70,90,100,400,4000}
+  calibdigiHBHEthreshold: double tracked  = 15
+  calibdigiHBHEtimeslices: vint32 tracked  = {+3,+4,+5,+6}
+  calibdigiHFthreshold: double tracked  = -999
+  calibdigiHFtimeslices: vint32 tracked  = {+0,+1,+2,+3,+4,+5,+6,+7,+8,+9}
+  caloTowerCollName: string tracked  = 'towerMaker'
+  digiCollName: string tracked  = 'hcalDigis'
+  fillCaloTowers: bool tracked  = true
+  fillDigis: bool tracked  = true
+  fillRecHits: bool tracked  = true
+  fillTracks: bool tracked  = true
+  hlMaxHPDEMF: double tracked  = -9999
+  hlMaxRBXEMF: double tracked  = 0.01
+  jetCollName: string tracked  = 'ak4PFJets'
+  lMaxHighEHitTime: double tracked  = 9999
+  lMaxLowEHitTime: double tracked  = 9999
+  lMaxRatio: double tracked  = 999
+  lMinHPDHits: int32 tracked  = 17
+  lMinHPDNoOtherHits: int32 tracked  = 10
+  lMinHighEHitTime: double tracked  = -9999
+  lMinLowEHitTime: double tracked  = -9999
+  lMinRBXHits: int32 tracked  = 999
+  lMinRatio: double tracked  = -999
+  lMinZeros: int32 tracked  = 10
+  lRBXRecHitR45Cuts: vdouble tracked  = {0,1,0,-0.5,0,0,1,-0.5}
+  maxCaloTowerIEta: int32 tracked  = 20
+  maxNHF: double tracked  = 0.9
+  maxProblemRBXs: int32 tracked  = 72
+  maxTrackEta: double tracked  = 2
+  maxjetindex: int32 tracked  = 0
+  minEEMF: double tracked  = 50
+  minERatio: double tracked  = 50
+  minEZeros: double tracked  = 10
+  minHighHitE: double tracked  = 25
+  minLowHitE: double tracked  = 10
+  minR45HitE: double tracked  = 5
+  minRecHitE: double tracked  = 1.5
+  minTrackPt: double tracked  = 1
+  pMaxHPDEMF: double tracked  = 0.02
+  pMaxHighEHitTime: double tracked  = 5
+  pMaxLowEHitTime: double tracked  = 6
+  pMaxRBXEMF: double tracked  = 0.02
+  pMaxRatio: double tracked  = 0.85
+  pMinE: double tracked  = 40
+  pMinEEMF: double tracked  = 10
+  pMinERatio: double tracked  = 25
+  pMinEZeros: double tracked  = 5
+  pMinHPDHits: int32 tracked  = 10
+  pMinHPDNoOtherHits: int32 tracked  = 7
+  pMinHighEHitTime: double tracked  = -4
+  pMinLowEHitTime: double tracked  = -6
+  pMinRBXHits: int32 tracked  = 20
+  pMinRBXRechitR45Count: int32 tracked  = 1
+  pMinRBXRechitR45EnergyFraction: double tracked  = 0.1
+  pMinRBXRechitR45Fraction: double tracked  = 0.1
+  pMinRatio: double tracked  = 0.75
+  pMinZeros: int32 tracked  = 4
+  recHitCollName: string tracked  = 'hbhereco'
+  tMaxHighEHitTime: double tracked  = 6
+  tMaxLowEHitTime: double tracked  = 9999
+  tMaxRatio: double tracked  = 999
+  tMinHPDHits: int32 tracked  = 16
+  tMinHPDNoOtherHits: int32 tracked  = 9
+  tMinHighEHitTime: double tracked  = -7
+  tMinLowEHitTime: double tracked  = -9999
+  tMinRBXHits: int32 tracked  = 50
+  tMinRatio: double tracked  = -999
+  tMinZeros: int32 tracked  = 8
+  tRBXRecHitR45Cuts: vdouble tracked  = {0,1,0,-0.2,0,0,1,-0.2}
+  trackCollName: string tracked  = 'generalTracks'
+ }
+
+Module: l1extraParticles RECO
+ PSet id:0e2dbf84280a6a7206e87c9573f0b20e
+ products: {
+  l1extraL1EmParticles_l1extraParticles_Isolated_RECO.
+  l1extraL1EmParticles_l1extraParticles_NonIsolated_RECO.
+  l1extraL1EtMissParticles_l1extraParticles_MET_RECO.
+  l1extraL1EtMissParticles_l1extraParticles_MHT_RECO.
+  l1extraL1HFRingss_l1extraParticles__RECO.
+  l1extraL1JetParticles_l1extraParticles_Central_RECO.
+  l1extraL1JetParticles_l1extraParticles_Forward_RECO.
+  l1extraL1JetParticles_l1extraParticles_IsoTau_RECO.
+  l1extraL1JetParticles_l1extraParticles_Tau_RECO.
+  l1extraL1MuonParticles_l1extraParticles__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'l1extraParticles'
+  @module_type: string tracked  = 'L1ExtraParticlesProd'
+  centralBxOnly: bool tracked  = true
+  centralJetSource: InputTag tracked  = caloStage1LegacyFormatDigis:cenJets
+  etHadSource: InputTag tracked  = caloStage1LegacyFormatDigis
+  etMissSource: InputTag tracked  = caloStage1LegacyFormatDigis
+  etTotalSource: InputTag tracked  = caloStage1LegacyFormatDigis
+  forwardJetSource: InputTag tracked  = caloStage1LegacyFormatDigis:forJets
+  hfRingBitCountsSource: InputTag tracked  = caloStage1LegacyFormatDigis
+  hfRingEtSumsSource: InputTag tracked  = caloStage1LegacyFormatDigis
+  htMissSource: InputTag tracked  = caloStage1LegacyFormatDigis
+  ignoreHtMiss: bool tracked  = false
+  isoTauJetSource: InputTag tracked  = caloStage1LegacyFormatDigis:isoTauJets
+  isolatedEmSource: InputTag tracked  = caloStage1LegacyFormatDigis:isoEm
+  muonSource: InputTag tracked  = gtDigis
+  nonIsolatedEmSource: InputTag tracked  = caloStage1LegacyFormatDigis:nonIsoEm
+  produceCaloParticles: bool tracked  = true
+  produceMuonParticles: bool tracked  = true
+  tauJetSource: InputTag tracked  = caloStage1LegacyFormatDigis:tauJets
+ }
+
+Module: lostTracks RECO
+ PSet id:7105209990bf99d182ebb009c939da45
+ products: {
+  patPackedCandidates_lostTracks__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'lostTracks'
+  @module_type: string tracked  = 'PATLostTracks'
+  inputCandidates: InputTag tracked  = particleFlow
+  inputTracks: InputTag tracked  = generalTracks
+  minHits: uint32 tracked  = 8
+  minPixelHits: uint32 tracked  = 1
+  minPt: double tracked  = 0.95
+  originalVertices: InputTag tracked  = offlinePrimaryVertices
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  primaryVertices: InputTag tracked  = offlineSlimmedPrimaryVertices
+  secondaryVertices: InputTag tracked  = inclusiveSecondaryVertices
+ }
+
+Module: offlineBeamSpot RECO
+ PSet id:7160566b4104eace6720fc609b1539a2
+ products: {
+  recoBeamSpot_offlineBeamSpot__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'offlineBeamSpot'
+  @module_type: string tracked  = 'BeamSpotProducer'
+ }
+
+Module: offlineSlimmedPrimaryVertices RECO
+ PSet id:c666bc40de23cff33de5bffc3cc1cfec
+ products: {
+  floatedmValueMap_offlineSlimmedPrimaryVertices__RECO.
+  recoVertexs_offlineSlimmedPrimaryVertices__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'offlineSlimmedPrimaryVertices'
+  @module_type: string tracked  = 'PATVertexSlimmer'
+  score: InputTag tracked  = primaryVertexAssociation:original
+  src: InputTag tracked  = offlinePrimaryVertices
+ }
+
+Module: packedGenParticles RECO
+ PSet id:517d8f33a98629d7e73757c45f9e789e
+ products: {
+  patPackedGenParticles_packedGenParticles__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'packedGenParticles'
+  @module_type: string tracked  = 'PATPackedGenParticleProducer'
+  inputCollection: InputTag tracked  = prunedGenParticlesWithStatusOne
+  inputOriginal: InputTag tracked  = genParticles
+  inputVertices: InputTag tracked  = offlineSlimmedPrimaryVertices
+  map: InputTag tracked  = prunedGenParticles
+  maxRapidity: double tracked  = 6
+ }
+
+Module: packedPFCandidates RECO
+ PSet id:2a0e1e585a543c808398fa6f277205d7
+ products: {
+  patPackedCandidates_packedPFCandidates__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'packedPFCandidates'
+  @module_type: string tracked  = 'PATPackedCandidateProducer'
+  PuppiNoLepSrc: InputTag tracked  = puppiNoLep
+  PuppiSrc: InputTag tracked  = puppi
+  inputCollection: InputTag tracked  = particleFlow
+  inputVertices: InputTag tracked  = offlineSlimmedPrimaryVertices
+  minPtForTrackProperties: double tracked  = 0.95
+  originalTracks: InputTag tracked  = generalTracks
+  originalVertices: InputTag tracked  = offlinePrimaryVertices
+  secondaryVerticesForWhiteList: VInputTag tracked  = {inclusiveCandidateSecondaryVertices,inclusiveCandidateSecondaryVerticesCvsL}
+  vertexAssociator: InputTag tracked  = primaryVertexAssociation:original
+ }
+
+Module: patTrigger RECO
+ PSet id:2747c26696bc3711881bdc9b3bd35086
+ products: {
+  patPackedTriggerPrescales_patTrigger__RECO.
+  patPackedTriggerPrescales_patTrigger_l1max_RECO.
+  patPackedTriggerPrescales_patTrigger_l1min_RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'patTrigger'
+  @module_type: string tracked  = 'PATTriggerProducer'
+  l1GtReadoutRecordInputTag: InputTag tracked  = gtDigis
+  l1GtRecordInputTag: InputTag tracked  = gtDigis
+  l1GtTriggerMenuLiteInputTag: InputTag tracked  = gtDigis
+  l1tAlgBlkInputTag: InputTag tracked  = gtStage2Digis
+  l1tExtBlkInputTag: InputTag tracked  = gtStage2Digis
+  onlyStandAlone: bool tracked  = true
+  packTriggerPathNames: bool tracked  = true
+  processName: string tracked  = 'HLT'
+ }
+
+Module: prunedGenParticles RECO
+ PSet id:c3c95a8f3221de5cce2848e4bb2c68f1
+ products: {
+  recoGenParticles_prunedGenParticles__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'prunedGenParticles'
+  @module_type: string tracked  = 'GenParticlePruner'
+  select: vstring tracked  = {'drop  *','++keep abs(pdgId) == 11 || abs(pdgId) == 13 || abs(pdgId) == 15','keep abs(pdgId) == 12 || abs(pdgId) == 14 || abs(pdgId) == 16','drop   status == 2','+keep pdgId == 22 && status == 1 && (pt > 10 || isPromptFinalState())','+keep abs(pdgId) == 11 && status == 1 && (pt > 3 || isPromptFinalState())','keep++ abs(pdgId) == 15','drop  status > 30 && status < 70 ','drop  pdgId == 21 && pt < 5','drop   status == 2 && abs(pdgId) == 21','keep abs(pdgId) == 23 || abs(pdgId) == 24 || abs(pdgId) == 25 || abs(pdgId) == 6 || abs(pdgId) == 37 ','keep abs(pdgId) == 310 && abs(eta) < 2.5 && pt > 1 ','+keep abs(pdgId) == 13 && status == 1','keep (4 <= abs(pdgId) <= 5)','keep (1 <= abs(pdgId) <= 3 || pdgId = 21) & (status = 2 || status = 11 || status = 71 || status = 72) && pt>5','keep (400 < abs(pdgId) < 600) || (4000 < abs(pdgId) < 6000)','keep abs(pdgId) == 333','keep abs(pdgId) == 443 || abs(pdgId) == 100443 || abs(pdgId) == 10441 || abs(pdgId) == 20443 || abs(pdgId) == 445 || abs(pdgId) == 30443','keep abs(pdgId) == 553 || abs(pdgId) == 100553 || abs(pdgId) == 200553 || abs(pdgId) == 10551 || abs(pdgId) == 20553 || abs(pdgId) == 555','keep abs(pdgId) = 10411 || abs(pdgId) = 10421 || abs(pdgId) = 10413 || abs(pdgId) = 10423 || abs(pdgId) = 20413 || abs(pdgId) = 20423 || abs(pdgId) = 10431 || abs(pdgId) = 10433 || abs(pdgId) = 20433','keep abs(pdgId) = 10511 || abs(pdgId) = 10521 || abs(pdgId) = 10513 || abs(pdgId) = 10523 || abs(pdgId) = 20513 || abs(pdgId) = 20523 || abs(pdgId) = 10531 || abs(pdgId) = 10533 || abs(pdgId) = 20533 || abs(pdgId) = 10541 || abs(pdgId) = 10543 || abs(pdgId) = 20543','keep (1000001 <= abs(pdgId) <= 1000039 ) || ( 2000001 <= abs(pdgId) <= 2000015)','keep pdgId = 2212','keep status == 3 || ( 21 <= status <= 29) || ( 11 <= status <= 19)','keep isHardProcess() || fromHardProcessFinalState() || fromHardProcessDecayed() || fromHardProcessBeforeFSR() || (statusFlags().fromHardProcess() && statusFlags().isLastCopy())'}
+  src: InputTag tracked  = prunedGenParticlesWithStatusOne
+ }
+
+Module: reducedEgamma RECO
+ PSet id:367f69d33002a0fdbdd24dfaadc4e167
+ products: {
+  EcalRecHitsSorted_reducedEgamma_reducedEBRecHits_RECO.
+  EcalRecHitsSorted_reducedEgamma_reducedEERecHits_RECO.
+  EcalRecHitsSorted_reducedEgamma_reducedESRecHits_RECO.
+  recoCaloClusters_reducedEgamma_reducedEBEEClusters_RECO.
+  recoCaloClusters_reducedEgamma_reducedESClusters_RECO.
+  recoConversions_reducedEgamma_reducedConversions_RECO.
+  recoConversions_reducedEgamma_reducedSingleLegConversions_RECO.
+  recoGsfElectronCores_reducedEgamma_reducedGedGsfElectronCores_RECO.
+  recoPhotonCores_reducedEgamma_reducedGedPhotonCores_RECO.
+  recoSuperClusters_reducedEgamma_reducedSuperClusters_RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'reducedEgamma'
+  @module_type: string tracked  = 'ReducedEGProducer'
+  barrelEcalHits: InputTag tracked  = reducedEcalRecHitsEB
+  conversions: InputTag tracked  = allConversions
+  endcapEcalHits: InputTag tracked  = reducedEcalRecHitsEE
+  gsfElectronIDOutput: vstring tracked  = {'eidLoose','eidRobustHighEnergy','eidRobustLoose','eidRobustTight','eidTight'}
+  gsfElectronIDSources: VInputTag tracked  = {eidLoose,eidRobustHighEnergy,eidRobustLoose,eidRobustTight,eidTight}
+  gsfElectronPFClusterIsoOutput: vstring tracked  = {'eleEcalPFClusIso','eleHcalPFClusIso'}
+  gsfElectronPFClusterIsoSources: VInputTag tracked  = {electronEcalPFClusterIsolationProducer,electronHcalPFClusterIsolationProducer}
+  gsfElectrons: InputTag tracked  = gedGsfElectrons
+  gsfElectronsPFValMap: InputTag tracked  = particleBasedIsolation:gedGsfElectrons
+  keepGsfElectrons: string tracked  = ''
+  keepPhotons: string tracked  = 'hadTowOverEm()<0.15 && pt>10 && (pt>14 || chargedHadronIso()<10)'
+  photonIDOutput: vstring tracked  = {'PhotonCutBasedIDLoose','PhotonCutBasedIDLooseEM','PhotonCutBasedIDTight'}
+  photonIDSources: VInputTag tracked  = {PhotonIDProdGED:PhotonCutBasedIDLoose,PhotonIDProdGED:PhotonCutBasedIDLooseEM,PhotonIDProdGED:PhotonCutBasedIDTight}
+  photonPFClusterIsoOutput: vstring tracked  = {'phoEcalPFClusIso','phoHcalPFClusIso'}
+  photonPFClusterIsoSources: VInputTag tracked  = {photonEcalPFClusterIsolationProducer,photonHcalPFClusterIsolationProducer}
+  photons: InputTag tracked  = gedPhotons
+  photonsPFValMap: InputTag tracked  = particleBasedIsolation:gedPhotons
+  preshowerEcalHits: InputTag tracked  = reducedEcalRecHitsES
+  relinkGsfElectrons: string tracked  = 'pt>5'
+  relinkPhotons: string tracked  = '(r9()>0.8 || chargedHadronIso()<20 || chargedHadronIso()<0.3*pt())'
+  singleConversions: InputTag tracked  = particleFlowEGamma
+  slimRelinkGsfElectrons: string tracked  = ''
+  slimRelinkPhotons: string tracked  = 'hadTowOverEm()<0.15 && pt>10 && (pt>14 || chargedHadronIso()<10)'
+ }
+
+Module: scalersRawToDigi RECO
+ PSet id:583c27007dbe42de987c2989f4ec1536
+ products: {
+  LumiScalerss_scalersRawToDigi__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'scalersRawToDigi'
+  @module_type: string tracked  = 'ScalersRawToDigi'
+  scalersInputTag: InputTag tracked  = rawDataCollector
+ }
+
+Module: selectedPatTrigger RECO
+ PSet id:c16b4ec6de1fa895c48b2ea4ce233490
+ products: {
+  patTriggerObjectStandAlones_selectedPatTrigger__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDFilter'
+  @module_label: string tracked  = 'selectedPatTrigger'
+  @module_type: string tracked  = 'PATTriggerObjectStandAloneSelector'
+  cut: string tracked  = '!filterLabels.empty()'
+  src: InputTag tracked  = patTrigger
+ }
+
+Module: slimmedAddPileupInfo RECO
+ PSet id:3002955b8dad191b06aa13cb62f82f84
+ products: {
+  PileupSummaryInfos_slimmedAddPileupInfo__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedAddPileupInfo'
+  @module_type: string tracked  = 'PileupSummaryInfoSlimmer'
+  keepDetailedInfoFor: vint32 tracked  = {+0}
+  src: InputTag tracked  = addPileupInfo
+ }
+
+Module: slimmedElectrons RECO
+ PSet id:62360fa5d44632d86e6907ad5781f617
+ products: {
+  patElectrons_slimmedElectrons__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedElectrons'
+  @module_type: string tracked  = 'PATElectronSlimmer'
+  dropBasicClusters: string tracked  = '0'
+  dropClassifications: string tracked  = 'pt < 5'
+  dropCorrections: string tracked  = 'pt < 5'
+  dropExtrapolations: string tracked  = 'pt < 5'
+  dropIsolations: string tracked  = 'pt < 5'
+  dropPFlowClusters: string tracked  = '0'
+  dropPreshowerClusters: string tracked  = '0'
+  dropRecHits: string tracked  = '0'
+  dropSeedCluster: string tracked  = '0'
+  dropShapes: string tracked  = 'pt < 5'
+  dropSuperCluster: string tracked  = '0'
+  linkToPackedPFCandidates: bool tracked  = true
+  modifyElectrons: bool tracked  = true
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  recoToPFMap: InputTag tracked  = reducedEgamma:reducedGsfElectronPfCandMap
+  reducedBarrelRecHitCollection: InputTag tracked  = reducedEcalRecHitsEB
+  reducedEndcapRecHitCollection: InputTag tracked  = reducedEcalRecHitsEE
+  saveNonZSClusterShapes: string tracked  = 'pt > 5'
+  src: InputTag tracked  = selectedPatElectrons
+  modifierConfig: PSet tracked = ({
+   modifications: VPSet tracked = ({
+    {
+     modifierName: string tracked  = 'EGExtraInfoModifierFromFloatValueMaps'
+     electron_config: PSet tracked = ({
+      ElectronMVAEstimatorRun2Spring15NonTrig25nsV1Values: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15NonTrig25nsV1Values
+      ElectronMVAEstimatorRun2Spring15Trig25nsV1Values: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15Trig25nsV1Values
+      ElectronMVAEstimatorRun2Spring15Trig50nsV1Values: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15Trig50nsV1Values
+     })
+     photon_config: PSet tracked = ({
+      PhotonMVAEstimatorRun2Spring15NonTrig25nsV2p1Values: InputTag tracked  = photonMVAValueMapProducer:PhotonMVAEstimatorRun2Spring15NonTrig25nsV2p1Values
+      PhotonMVAEstimatorRun2Spring15NonTrig50nsV2p1Values: InputTag tracked  = photonMVAValueMapProducer:PhotonMVAEstimatorRun2Spring15NonTrig50nsV2p1Values
+      phoChargedIsolation: InputTag tracked  = photonIDValueMapProducer:phoChargedIsolation
+      phoNeutralHadronIsolation: InputTag tracked  = photonIDValueMapProducer:phoNeutralHadronIsolation
+      phoPhotonIsolation: InputTag tracked  = photonIDValueMapProducer:phoPhotonIsolation
+      phoWorstChargedIsolation: InputTag tracked  = photonIDValueMapProducer:phoWorstChargedIsolation
+     })
+    },
+    {
+     modifierName: string tracked  = 'EGExtraInfoModifierFromIntValueMaps'
+     electron_config: PSet tracked = ({
+      ElectronMVAEstimatorRun2Spring15NonTrig25nsV1Categories: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15NonTrig25nsV1Categories
+      ElectronMVAEstimatorRun2Spring15Trig25nsV1Categories: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15Trig25nsV1Categories
+      ElectronMVAEstimatorRun2Spring15Trig50nsV1Categories: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15Trig50nsV1Categories
+     })
+     photon_config: PSet tracked = ({
+      PhotonMVAEstimatorRun2Spring15NonTrig25nsV2p1Categories: InputTag tracked  = photonMVAValueMapProducer:PhotonMVAEstimatorRun2Spring15NonTrig25nsV2p1Categories
+      PhotonMVAEstimatorRun2Spring15NonTrig50nsV2p1Categories: InputTag tracked  = photonMVAValueMapProducer:PhotonMVAEstimatorRun2Spring15NonTrig50nsV2p1Categories
+     })
+    }
+   })
+  })
+ }
+
+Module: slimmedGenJets RECO
+ PSet id:5c84d743af3c28df4fe25af9eaa7e950
+ products: {
+  recoGenJets_slimmedGenJets__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedGenJets'
+  @module_type: string tracked  = 'PATGenJetSlimmer'
+  clearDaughters: bool tracked  = false
+  cut: string tracked  = 'pt > 8'
+  dropSpecific: bool tracked  = false
+  packedGenParticles: InputTag tracked  = packedGenParticles
+  src: InputTag tracked  = ak4GenJetsNoNu
+ }
+
+Module: slimmedGenJetsAK8 RECO
+ PSet id:31dc623de05400b6050cd79594b53d8c
+ products: {
+  recoGenJets_slimmedGenJetsAK8__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedGenJetsAK8'
+  @module_type: string tracked  = 'PATGenJetSlimmer'
+  clearDaughters: bool tracked  = false
+  cut: string tracked  = 'pt > 150'
+  dropSpecific: bool tracked  = false
+  packedGenParticles: InputTag tracked  = packedGenParticles
+  src: InputTag tracked  = ak8GenJetsNoNu
+ }
+
+Module: slimmedJets RECO
+ PSet id:3bdeff5d151b2fa449039d434b12a024
+ products: {
+  patJets_slimmedJets__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedJets'
+  @module_type: string tracked  = 'PATJetSlimmer'
+  dropDaughters: string tracked  = '0'
+  dropJetVars: string tracked  = '1'
+  dropSpecific: string tracked  = '0'
+  dropTagInfos: string tracked  = '1'
+  dropTrackRefs: string tracked  = '1'
+  modifyJets: bool tracked  = true
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  rekeyDaughters: string tracked  = '1'
+  src: InputTag tracked  = selectedUpdatedPatJetsBTAG
+  modifierConfig: PSet tracked = ({
+   modifications: VPSet tracked = ({
+   })
+  })
+ }
+
+Module: slimmedJetsAK8 RECO
+ PSet id:86494f9d52a4b7c361e125bd1d277b81
+ products: {
+  patJets_slimmedJetsAK8__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedJetsAK8'
+  @module_type: string tracked  = 'PATJetSlimmer'
+  dropDaughters: string tracked  = '0'
+  dropJetVars: string tracked  = '1'
+  dropSpecific: string tracked  = '0'
+  dropTagInfos: string tracked  = '0'
+  dropTrackRefs: string tracked  = '1'
+  modifyJets: bool tracked  = true
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  rekeyDaughters: string tracked  = '0'
+  src: InputTag tracked  = packedPatJetsAK8
+  modifierConfig: PSet tracked = ({
+   modifications: VPSet tracked = ({
+   })
+  })
+ }
+
+Module: slimmedJetsAK8PFPuppiSoftDropPacked RECO
+ PSet id:0d728fbd3b989110ca412e49d12e58f7
+ products: {
+  patJets_slimmedJetsAK8PFPuppiSoftDropPacked_SubJets_RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedJetsAK8PFPuppiSoftDropPacked'
+  @module_type: string tracked  = 'BoostedJetMerger'
+  jetSrc: InputTag tracked  = selectedPatJetsAK8PFPuppiSoftDrop
+  subjetSrc: InputTag tracked  = slimmedJetsAK8PFPuppiSoftDropSubjets
+ }
+
+Module: slimmedJetsPuppi RECO
+ PSet id:96117170d8d9a974d7103bdf68980367
+ products: {
+  patJets_slimmedJetsPuppi__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedJetsPuppi'
+  @module_type: string tracked  = 'PATJetSlimmer'
+  dropDaughters: string tracked  = '0'
+  dropJetVars: string tracked  = '1'
+  dropSpecific: string tracked  = '0'
+  dropTagInfos: string tracked  = '1'
+  dropTrackRefs: string tracked  = '1'
+  modifyJets: bool tracked  = true
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  rekeyDaughters: string tracked  = '1'
+  src: InputTag tracked  = selectedPatJetsPuppi
+  modifierConfig: PSet tracked = ({
+   modifications: VPSet tracked = ({
+   })
+  })
+ }
+
+Module: slimmedMETs RECO
+ PSet id:fae61a771c313fb61ff2e61376ba3c78
+ products: {
+  patMETs_slimmedMETs__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedMETs'
+  @module_type: string tracked  = 'PATMETSlimmer'
+  caloMET: InputTag tracked  = patCaloMet
+  rawVariation: InputTag tracked  = patPFMet
+  runningOnMiniAOD: bool tracked  = false
+  src: InputTag tracked  = patMETs
+  t01Variation: InputTag tracked  = patPFMetT0pcT1
+  t1SmearedVarsAndUncs: InputTag tracked  = patPFMetT1Smear%s
+  t1Uncertainties: InputTag tracked  = patPFMetT1%s
+  tXYUncForRaw: InputTag tracked  = patPFMetTxy
+  tXYUncForT01: InputTag tracked  = patPFMetT0pcT1Txy
+  tXYUncForT01Smear: InputTag tracked  = patPFMetT0pcT1SmearTxy
+  tXYUncForT1: InputTag tracked  = patPFMetT1Txy
+  tXYUncForT1Smear: InputTag tracked  = patPFMetT1SmearTxy
+ }
+
+Module: slimmedMETsNoHF RECO
+ PSet id:59bd322f9c45bdf12398df4c27fecf6d
+ products: {
+  patMETs_slimmedMETsNoHF__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedMETsNoHF'
+  @module_type: string tracked  = 'PATMETSlimmer'
+  rawVariation: InputTag tracked  = patPFMetNoHF
+  runningOnMiniAOD: bool tracked  = false
+  src: InputTag tracked  = patMETsNoHF
+  t01Variation: InputTag tracked  = patPFMetT0pcT1NoHF
+  t1SmearedVarsAndUncs: InputTag tracked  = patPFMetT1Smear%sNoHF
+  t1Uncertainties: InputTag tracked  = patPFMetT1%sNoHF
+  tXYUncForRaw: InputTag tracked  = patPFMetTxyNoHF
+  tXYUncForT01: InputTag tracked  = patPFMetT0pcT1TxyNoHF
+  tXYUncForT01Smear: InputTag tracked  = patPFMetT0pcT1SmearTxyNoHF
+  tXYUncForT1: InputTag tracked  = patPFMetT1TxyNoHF
+  tXYUncForT1Smear: InputTag tracked  = patPFMetT1SmearTxyNoHF
+ }
+
+Module: slimmedMETsPuppi RECO
+ PSet id:daf7d271ad890a5f9d482861f6689a88
+ products: {
+  patMETs_slimmedMETsPuppi__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedMETsPuppi'
+  @module_type: string tracked  = 'PATMETSlimmer'
+  rawVariation: InputTag tracked  = patPFMetPuppi
+  runningOnMiniAOD: bool tracked  = false
+  src: InputTag tracked  = patMETsPuppi
+  t01Variation: InputTag tracked  = patPFMetT0pcT1Puppi
+  t1SmearedVarsAndUncs: InputTag tracked  = patPFMetT1Smear%sPuppi
+  t1Uncertainties: InputTag tracked  = patPFMetT1%sPuppi
+  tXYUncForRaw: InputTag tracked  = patPFMetTxyPuppi
+  tXYUncForT01: InputTag tracked  = patPFMetT0pcT1TxyPuppi
+  tXYUncForT01Smear: InputTag tracked  = patPFMetT0pcT1SmearTxyPuppi
+  tXYUncForT1: InputTag tracked  = patPFMetT1TxyPuppi
+  tXYUncForT1Smear: InputTag tracked  = patPFMetT1SmearTxyPuppi
+ }
+
+Module: slimmedMuons RECO
+ PSet id:a22f4049a6a1f6f8dc83c421a55022ea
+ products: {
+  patMuons_slimmedMuons__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedMuons'
+  @module_type: string tracked  = 'PATMuonSlimmer'
+  linkToPackedPFCandidates: bool tracked  = true
+  modifyMuons: bool tracked  = true
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  pfCandidates: InputTag tracked  = particleFlow
+  saveTeVMuons: string tracked  = 'pt > 100'
+  src: InputTag tracked  = selectedPatMuons
+  modifierConfig: PSet tracked = ({
+   modifications: VPSet tracked = ({
+   })
+  })
+ }
+
+Module: slimmedPhotons RECO
+ PSet id:deee7a556d5baec71b064c825eba3577
+ products: {
+  patPhotons_slimmedPhotons__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedPhotons'
+  @module_type: string tracked  = 'PATPhotonSlimmer'
+  dropBasicClusters: string tracked  = '0'
+  dropPreshowerClusters: string tracked  = '0'
+  dropRecHits: string tracked  = '0'
+  dropSeedCluster: string tracked  = '0'
+  dropSuperCluster: string tracked  = '0'
+  linkToPackedPFCandidates: bool tracked  = true
+  modifyPhotons: bool tracked  = true
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  recoToPFMap: InputTag tracked  = reducedEgamma:reducedPhotonPfCandMap
+  reducedBarrelRecHitCollection: InputTag tracked  = reducedEcalRecHitsEB
+  reducedEndcapRecHitCollection: InputTag tracked  = reducedEcalRecHitsEE
+  saveNonZSClusterShapes: string tracked  = '(r9()>0.8 || chargedHadronIso()<20 || chargedHadronIso()<0.3*pt())'
+  src: InputTag tracked  = selectedPatPhotons
+  modifierConfig: PSet tracked = ({
+   modifications: VPSet tracked = ({
+    {
+     modifierName: string tracked  = 'EGExtraInfoModifierFromFloatValueMaps'
+     electron_config: PSet tracked = ({
+      ElectronMVAEstimatorRun2Spring15NonTrig25nsV1Values: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15NonTrig25nsV1Values
+      ElectronMVAEstimatorRun2Spring15Trig25nsV1Values: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15Trig25nsV1Values
+      ElectronMVAEstimatorRun2Spring15Trig50nsV1Values: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15Trig50nsV1Values
+     })
+     photon_config: PSet tracked = ({
+      PhotonMVAEstimatorRun2Spring15NonTrig25nsV2p1Values: InputTag tracked  = photonMVAValueMapProducer:PhotonMVAEstimatorRun2Spring15NonTrig25nsV2p1Values
+      PhotonMVAEstimatorRun2Spring15NonTrig50nsV2p1Values: InputTag tracked  = photonMVAValueMapProducer:PhotonMVAEstimatorRun2Spring15NonTrig50nsV2p1Values
+      phoChargedIsolation: InputTag tracked  = photonIDValueMapProducer:phoChargedIsolation
+      phoNeutralHadronIsolation: InputTag tracked  = photonIDValueMapProducer:phoNeutralHadronIsolation
+      phoPhotonIsolation: InputTag tracked  = photonIDValueMapProducer:phoPhotonIsolation
+      phoWorstChargedIsolation: InputTag tracked  = photonIDValueMapProducer:phoWorstChargedIsolation
+     })
+    },
+    {
+     modifierName: string tracked  = 'EGExtraInfoModifierFromIntValueMaps'
+     electron_config: PSet tracked = ({
+      ElectronMVAEstimatorRun2Spring15NonTrig25nsV1Categories: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15NonTrig25nsV1Categories
+      ElectronMVAEstimatorRun2Spring15Trig25nsV1Categories: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15Trig25nsV1Categories
+      ElectronMVAEstimatorRun2Spring15Trig50nsV1Categories: InputTag tracked  = electronMVAValueMapProducer:ElectronMVAEstimatorRun2Spring15Trig50nsV1Categories
+     })
+     photon_config: PSet tracked = ({
+      PhotonMVAEstimatorRun2Spring15NonTrig25nsV2p1Categories: InputTag tracked  = photonMVAValueMapProducer:PhotonMVAEstimatorRun2Spring15NonTrig25nsV2p1Categories
+      PhotonMVAEstimatorRun2Spring15NonTrig50nsV2p1Categories: InputTag tracked  = photonMVAValueMapProducer:PhotonMVAEstimatorRun2Spring15NonTrig50nsV2p1Categories
+     })
+    }
+   })
+  })
+ }
+
+Module: slimmedSecondaryVertices RECO
+ PSet id:7dadedc5e2657d50daa6469bcaf106f7
+ products: {
+  recoVertexCompositePtrCandidates_slimmedSecondaryVertices__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedSecondaryVertices'
+  @module_type: string tracked  = 'PATSecondaryVertexSlimmer'
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  src: InputTag tracked  = inclusiveCandidateSecondaryVertices
+ }
+
+Module: slimmedTaus RECO
+ PSet id:0e68d30e41a6dcece491114782328e65
+ products: {
+  patTaus_slimmedTaus__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedTaus'
+  @module_type: string tracked  = 'PATTauSlimmer'
+  dropPFSpecific: bool tracked  = true
+  dropPiZeroRefs: bool tracked  = true
+  dropTauChargedHadronRefs: bool tracked  = true
+  linkToPackedPFCandidates: bool tracked  = true
+  modifyTaus: bool tracked  = true
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  src: InputTag tracked  = selectedPatTaus
+  modifierConfig: PSet tracked = ({
+   modifications: VPSet tracked = ({
+   })
+  })
+ }
+
+Module: slimmedTausBoosted RECO
+ PSet id:f0adf3c7e89b340388a430a150bff35e
+ products: {
+  patTaus_slimmedTausBoosted__RECO.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'slimmedTausBoosted'
+  @module_type: string tracked  = 'PATTauSlimmer'
+  dropPFSpecific: bool tracked  = true
+  dropPiZeroRefs: bool tracked  = true
+  dropTauChargedHadronRefs: bool tracked  = true
+  linkToPackedPFCandidates: bool tracked  = true
+  modifyTaus: bool tracked  = true
+  packedPFCandidates: InputTag tracked  = packedPFCandidates
+  src: InputTag tracked  = selectedPatTausBoosted
+  modifierConfig: PSet tracked = ({
+   modifications: VPSet tracked = ({
+   })
+  })
+ }
+
+Module: TriggerResults SIM
+ PSet id:4503e947975ced2f614d65f6a1ecc62b
+ products: {
+  edmTriggerResults_TriggerResults__SIM.
+ }
+ parameters: {
+  @trigger_paths: vstring tracked  = {'generation_step','simulation_step'}
+ }
+
+Module: genFilterEfficiencyProducer SIM
+ PSet id:2e76930557e2a29a84e92620a6a76a06
+ products: {
+  GenFilterInfo_genFilterEfficiencyProducer__SIM.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDProducer'
+  @module_label: string tracked  = 'genFilterEfficiencyProducer'
+  @module_type: string tracked  = 'GenFilterEfficiencyProducer'
+  filterPath: string tracked  = 'generation_step'
+ }
+
+Module: generator SIM
+ PSet id:434a3cf80414189c208245d2c088419c
+ products: {
+  GenEventInfoProduct_generator__SIM.
+  GenLumiInfoHeader_generator__SIM.
+  GenLumiInfoProduct_generator__SIM.
+  GenRunInfoProduct_generator__SIM.
+ }
+ parameters: {
+  @module_edm_type: string tracked  = 'EDFilter'
+  @module_label: string tracked  = 'generator'
+  @module_type: string tracked  = 'Pythia8GeneratorFilter'
+  comEnergy: double tracked  = 13000
+  PythiaParameters: PSet tracked = ({
+   parameterSets: vstring tracked  = {'pythia8CommonSettings','pythia8CUEP8M1Settings','processParameters'}
+   processParameters: vstring tracked  = {'WeakSingleBoson:ffbar2gmZ = on','23:onMode = off','23:onIfAny = 13','PhaseSpace:mHatMin = 75.'}
+   pythia8CUEP8M1Settings: vstring tracked  = {'Tune:pp 14','Tune:ee 7','MultipartonInteractions:pT0Ref=2.4024','MultipartonInteractions:ecmPow=0.25208','MultipartonInteractions:expPow=1.6'}
+   pythia8CommonSettings: vstring tracked  = {'Tune:preferLHAPDF = 2','Main:timesAllowErrors = 10000','Check:epTolErr = 0.01','Beams:setProductionScalesFromLHEF = off','SLHA:keepSM = on','SLHA:minMassSM = 1000.','ParticleDecays:limitTau0 = on','ParticleDecays:tau0Max = 10','ParticleDecays:allowPhotonRadiation = on'}
+  })
+ }
+
+---------EventSetup---------
+ESSource: eegeom SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESSource'
+  @module_label: string tracked  = 'eegeom'
+  @module_type: string tracked  = 'EmptyESSource'
+  firstValid: vuint32 tracked  = {1}
+  iovIsRunNotTime: bool tracked  = true
+  recordName: string tracked  = 'EcalMappingRcd'
+ }
+ESSource: es_hardcode SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESSource'
+  @module_label: string tracked  = 'es_hardcode'
+  @module_type: string tracked  = 'HcalHardcodeCalibrations'
+  GainWidthsForTrigPrims: bool tracked  = false
+  HERecalibration: bool tracked  = false
+  HEreCalibCutoff: double tracked  = 20
+  HFRecalibration: bool tracked  = false
+  appendToDataLabel: string tracked  = ''
+  iLumi: double tracked  = -1
+  testHFQIE10: bool tracked  = false
+  useHBUpgrade: bool tracked  = false
+  useHEUpgrade: bool tracked  = false
+  useHFUpgrade: bool tracked  = false
+  HFRecalParameterBlock: PSet tracked = ({
+   HFdepthOneParameterA: vdouble tracked  = {0.004123,0.00602,0.008201,0.010489,0.013379,0.016997,0.021464,0.027371,0.034195,0.044807,0.058939,0.125497}
+   HFdepthOneParameterB: vdouble tracked  = {-4e-06,-2e-06,0,4e-06,1.5e-05,2.6e-05,6.3e-05,8.4e-05,0.00016,0.000107,0.000425,0.000209}
+   HFdepthTwoParameterA: vdouble tracked  = {0.002861,0.004168,0.0064,0.008388,0.011601,0.014425,0.018633,0.023232,0.028274,0.035447,0.051579,0.086593}
+   HFdepthTwoParameterB: vdouble tracked  = {-2e-06,-0,-7e-06,-6e-06,-2e-06,1e-06,1.9e-05,3.1e-05,6.7e-05,1.2e-05,0.000157,-3e-06}
+  })
+  hb: PSet tracked = ({
+   gain: vdouble tracked  = {0.19}
+   gainWidth: vdouble tracked  = {0}
+   pedestal: double tracked  = 3
+   pedestalWidth: double tracked  = 0.55
+   qieOffset: vdouble tracked  = {-0.49,1.8,7.2,37.9}
+   qieSlope: vdouble tracked  = {0.912,0.917,0.922,0.923}
+   qieType: int32 tracked  = 0
+  })
+  hbUpgrade: PSet tracked = ({
+   gain: vdouble tracked  = {0.0002802690582959641}
+   gainWidth: vdouble tracked  = {0}
+   pedestal: double tracked  = 17.3
+   pedestalWidth: double tracked  = 1.5
+   qieOffset: vdouble tracked  = {0,0,0,0}
+   qieSlope: vdouble tracked  = {0.333,0.333,0.333,0.333}
+   qieType: int32 tracked  = 2
+  })
+  he: PSet tracked = ({
+   gain: vdouble tracked  = {0.23}
+   gainWidth: vdouble tracked  = {0}
+   pedestal: double tracked  = 3
+   pedestalWidth: double tracked  = 0.79
+   qieOffset: vdouble tracked  = {-0.38,2,7.6,39.6}
+   qieSlope: vdouble tracked  = {0.912,0.916,0.92,0.922}
+   qieType: int32 tracked  = 0
+  })
+  heUpgrade: PSet tracked = ({
+   gain: vdouble tracked  = {0.0002802690582959641}
+   gainWidth: vdouble tracked  = {0}
+   pedestal: double tracked  = 17.3
+   pedestalWidth: double tracked  = 1.5
+   qieOffset: vdouble tracked  = {0,0,0,0}
+   qieSlope: vdouble tracked  = {0.333,0.333,0.333,0.333}
+   qieType: int32 tracked  = 2
+  })
+  hf: PSet tracked = ({
+   gain: vdouble tracked  = {0.14,0.135}
+   gainWidth: vdouble tracked  = {0,0}
+   pedestal: double tracked  = 3
+   pedestalWidth: double tracked  = 0.84
+   qieOffset: vdouble tracked  = {-0.87,1.4,7.8,-29.6}
+   qieSlope: vdouble tracked  = {0.359,0.358,0.36,0.367}
+   qieType: int32 tracked  = 0
+  })
+  hfUpgrade: PSet tracked = ({
+   gain: vdouble tracked  = {0.14,0.135}
+   gainWidth: vdouble tracked  = {0,0}
+   pedestal: double tracked  = 13.33
+   pedestalWidth: double tracked  = 3.33
+   qieOffset: vdouble tracked  = {0.0697,-0.7405,12.38,-671.9}
+   qieSlope: vdouble tracked  = {0.297,0.298,0.298,0.313}
+   qieType: int32 tracked  = 1
+  })
+  ho: PSet tracked = ({
+   gain: vdouble tracked  = {0.006,0.008699999999999999}
+   gainWidth: vdouble tracked  = {0,0}
+   pedestal: double tracked  = 11
+   pedestalWidth: double tracked  = 0.57
+   qieOffset: vdouble tracked  = {-0.44,1.4,7.1,38.5}
+   qieSlope: vdouble tracked  = {0.907,0.915,0.92,0.921}
+   qieType: int32 tracked  = 0
+  })
+ }
+ESSource: HepPDTESSource SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESSource'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'HepPDTESSource'
+  pdtFileName: FileInPath tracked  = V001 SimGeneral/HepPDTESSource/data/pythiaparticle.tbl 2 /src/SimGeneral/HepPDTESSource/data/pythiaparticle.tbl
+ }
+ESSource: GlobalTag SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESSource'
+  @module_label: string tracked  = 'GlobalTag'
+  @module_type: string tracked  = 'PoolDBESSource'
+  connect: string tracked  = 'frontier://FrontierProd/CMS_CONDITIONS'
+  globaltag: string tracked  = '81X_mcRun2_asymptotic_v2'
+  snapshotTime: string tracked  = ''
+  DBParameters: PSet tracked = ({
+  })
+  toGet: VPSet tracked = ({
+  })
+ }
+ESModule: ParabolicParametrizedMagneticFieldProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'ParabolicParametrizedMagneticFieldProducer'
+  @module_type: string tracked  = 'AutoParametrizedMagneticFieldProducer'
+  valueOverride: int32 tracked  = -1
+  version: string tracked  = 'Parabolic'
+ }
+ESModule: CSCGeometryESModule SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'CSCGeometryESModule'
+  alignmentsLabel: string tracked  = ''
+  appendToDataLabel: string tracked  = ''
+  applyAlignment: bool tracked  = true
+  useCentreTIOffsets: bool tracked  = false
+  useDDD: bool tracked  = false
+  useGangedStripsInME1a: bool tracked  = false
+  useOnlyWiresInME1a: bool tracked  = false
+  useRealWireGeometry: bool tracked  = true
+ }
+ESModule: idealForDigiCSCGeometry SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'idealForDigiCSCGeometry'
+  @module_type: string tracked  = 'CSCGeometryESModule'
+  alignmentsLabel: string tracked  = 'fakeForIdeal'
+  appendToDataLabel: string tracked  = 'idealForDigi'
+  applyAlignment: bool tracked  = false
+  useCentreTIOffsets: bool tracked  = false
+  useDDD: bool tracked  = false
+  useGangedStripsInME1a: bool tracked  = false
+  useOnlyWiresInME1a: bool tracked  = false
+  useRealWireGeometry: bool tracked  = true
+ }
+ESModule: CaloGeometryBuilder SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'CaloGeometryBuilder'
+  SelectedCalos: vstring tracked  = {'HCAL','ZDC','CASTOR','EcalBarrel','EcalEndcap','EcalPreshower','TOWER'}
+ }
+ESModule: CaloTopologyBuilder SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'CaloTopologyBuilder'
+ }
+ESModule: CaloTowerGeometryFromDBEP SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'CaloTowerGeometryFromDBEP'
+  applyAlignment: bool tracked  = false
+ }
+ESModule: CaloTowerTopologyEP SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'CaloTowerTopologyEP'
+  appendToDataLabel: string tracked  = ''
+ }
+ESModule: CastorDbProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'CastorDbProducer'
+  appendToDataLabel: string tracked  = ''
+ }
+ESModule: CastorGeometryFromDBEP SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'CastorGeometryFromDBEP'
+  applyAlignment: bool tracked  = false
+ }
+ESModule: DTGeometryESModule SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'DTGeometryESModule'
+  alignmentsLabel: string tracked  = ''
+  appendToDataLabel: string tracked  = ''
+  applyAlignment: bool tracked  = true
+  fromDDD: bool tracked  = false
+ }
+ESModule: idealForDigiDTGeometry SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'idealForDigiDTGeometry'
+  @module_type: string tracked  = 'DTGeometryESModule'
+  alignmentsLabel: string tracked  = 'fakeForIdeal'
+  appendToDataLabel: string tracked  = 'idealForDigi'
+  applyAlignment: bool tracked  = false
+  fromDDD: bool tracked  = false
+ }
+ESModule: EcalBarrelGeometryFromDBEP SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'EcalBarrelGeometryFromDBEP'
+  applyAlignment: bool tracked  = true
+ }
+ESModule: EcalElectronicsMappingBuilder SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'EcalElectronicsMappingBuilder'
+ }
+ESModule: EcalEndcapGeometryFromDBEP SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'EcalEndcapGeometryFromDBEP'
+  applyAlignment: bool tracked  = true
+ }
+ESModule: EcalLaserCorrectionService SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'EcalLaserCorrectionService'
+ }
+ESModule: EcalPreshowerGeometryFromDBEP SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'EcalPreshowerGeometryFromDBEP'
+  applyAlignment: bool tracked  = true
+ }
+ESModule: EcalTrigTowerConstituentsMapBuilder SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'EcalTrigTowerConstituentsMapBuilder'
+ }
+ESModule: fakeForIdealAlignment SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'fakeForIdealAlignment'
+  @module_type: string tracked  = 'FakeAlignmentProducer'
+  appendToDataLabel: string tracked  = 'fakeForIdeal'
+ }
+ESModule: GlobalTrackingGeometryESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'GlobalTrackingGeometryESProducer'
+ }
+ESModule: HcalAlignmentEP SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'HcalAlignmentEP'
+ }
+ESModule: hcalDDDRecConstants SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'hcalDDDRecConstants'
+  @module_type: string tracked  = 'HcalDDDRecConstantsESModule'
+  appendToDataLabel: string tracked  = ''
+ }
+ESModule: hcalDDDSimConstants SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'hcalDDDSimConstants'
+  @module_type: string tracked  = 'HcalDDDSimConstantsESModule'
+  appendToDataLabel: string tracked  = ''
+ }
+ESModule: hcal_db_producer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'hcal_db_producer'
+  @module_type: string tracked  = 'HcalDbProducer'
+ }
+ESModule: HcalGeometryFromDBEP SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'HcalGeometryFromDBEP'
+  applyAlignment: bool tracked  = true
+ }
+ESModule: hcalTopologyIdeal SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'hcalTopologyIdeal'
+  @module_type: string tracked  = 'HcalTopologyIdealEP'
+  appendToDataLabel: string tracked  = ''
+ }
+ESModule: MuonDetLayerGeometryESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'MuonDetLayerGeometryESProducer'
+ }
+ESModule: MuonNumberingInitialization SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'MuonNumberingInitialization'
+ }
+ESModule: RPCGeometryESModule SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'RPCGeometryESModule'
+ }
+ESModule: siPixelQualityESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'siPixelQualityESProducer'
+  @module_type: string tracked  = 'SiPixelQualityESProducer'
+  ListOfRecordToMerge: VPSet tracked = ({
+   {
+    record: string tracked  = 'SiPixelQualityFromDbRcd'
+    tag: string tracked  = ''
+   },
+   {
+    record: string tracked  = 'SiPixelDetVOffRcd'
+    tag: string tracked  = ''
+   }
+  })
+ }
+ESModule: siStripBackPlaneCorrectionDepESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'siStripBackPlaneCorrectionDepESProducer'
+  @module_type: string tracked  = 'SiStripBackPlaneCorrectionDepESProducer'
+  BackPlaneCorrectionDeconvMode: PSet tracked = ({
+   record: string tracked  = 'SiStripBackPlaneCorrectionRcd'
+  })
+  BackPlaneCorrectionPeakMode: PSet tracked = ({
+   record: string tracked  = 'SiStripBackPlaneCorrectionRcd'
+  })
+  LatencyRecord: PSet tracked = ({
+   record: string tracked  = 'SiStripLatencyRcd'
+  })
+ }
+ESModule: sistripconn SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'sistripconn'
+  @module_type: string tracked  = 'SiStripConnectivity'
+ }
+ESModule: siStripGainESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'siStripGainESProducer'
+  @module_type: string tracked  = 'SiStripGainESProducer'
+  AutomaticNormalization: bool tracked  = false
+  appendToDataLabel: string tracked  = ''
+  APVGain: VPSet tracked = ({
+   {
+    Record: string tracked  = 'SiStripApvGainRcd'
+   },
+   {
+    Record: string tracked  = 'SiStripApvGain2Rcd'
+   }
+  })
+ }
+ESModule: siStripGainSimESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'siStripGainSimESProducer'
+  @module_type: string tracked  = 'SiStripGainSimESProducer'
+  AutomaticNormalization: bool tracked  = false
+  appendToDataLabel: string tracked  = ''
+  APVGain: VPSet tracked = ({
+   {
+    Record: string tracked  = 'SiStripApvGainSimRcd'
+   }
+  })
+ }
+ESModule: siStripLorentzAngleDepESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'siStripLorentzAngleDepESProducer'
+  @module_type: string tracked  = 'SiStripLorentzAngleDepESProducer'
+  LatencyRecord: PSet tracked = ({
+   record: string tracked  = 'SiStripLatencyRcd'
+  })
+  LorentzAngleDeconvMode: PSet tracked = ({
+   record: string tracked  = 'SiStripLorentzAngleRcd'
+  })
+  LorentzAnglePeakMode: PSet tracked = ({
+   record: string tracked  = 'SiStripLorentzAngleRcd'
+  })
+ }
+ESModule: siStripQualityESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'siStripQualityESProducer'
+  @module_type: string tracked  = 'SiStripQualityESProducer'
+  PrintDebugOutput: bool tracked  = false
+  ReduceGranularity: bool tracked  = false
+  ThresholdForReducedGranularity: double tracked  = 0.3
+  UseEmptyRunInfo: bool tracked  = false
+  appendToDataLabel: string tracked  = ''
+  ListOfRecordToMerge: VPSet tracked = ({
+   {
+    record: string tracked  = 'SiStripDetVOffRcd'
+    tag: string tracked  = ''
+   },
+   {
+    record: string tracked  = 'SiStripDetCablingRcd'
+    tag: string tracked  = ''
+   },
+   {
+    record: string tracked  = 'RunInfoRcd'
+    tag: string tracked  = ''
+   },
+   {
+    record: string tracked  = 'SiStripBadChannelRcd'
+    tag: string tracked  = ''
+   },
+   {
+    record: string tracked  = 'SiStripBadFiberRcd'
+    tag: string tracked  = ''
+   },
+   {
+    record: string tracked  = 'SiStripBadModuleRcd'
+    tag: string tracked  = ''
+   },
+   {
+    record: string tracked  = 'SiStripBadStripRcd'
+    tag: string tracked  = ''
+   }
+  })
+ }
+ESModule: SiStripRecHitMatcherESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'SiStripRecHitMatcherESProducer'
+  ComponentName: string tracked  = 'StandardMatcher'
+  NSigmaInside: double tracked  = 3
+  PreFilter: bool tracked  = false
+ }
+ESModule: StripCPEfromTrackAngleESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'StripCPEfromTrackAngleESProducer'
+  @module_type: string tracked  = 'StripCPEESProducer'
+  ComponentName: string tracked  = 'StripCPEfromTrackAngle'
+  ComponentType: string tracked  = 'StripCPEfromTrackAngle'
+  parameters: PSet tracked = ({
+   mLC_P0: double tracked  = -0.326
+   mLC_P1: double tracked  = 0.618
+   mLC_P2: double tracked  = 0.3
+   mTEC_P0: double tracked  = -1.885
+   mTEC_P1: double tracked  = 0.471
+   mTIB_P0: double tracked  = -0.742
+   mTIB_P1: double tracked  = 0.202
+   mTID_P0: double tracked  = -1.427
+   mTID_P1: double tracked  = 0.433
+   mTOB_P0: double tracked  = -1.026
+   mTOB_P1: double tracked  = 0.253
+   maxChgOneMIP: double tracked  = 6000
+   useLegacyError: bool tracked  = false
+  })
+ }
+ESModule: stripCPEESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'stripCPEESProducer'
+  @module_type: string tracked  = 'StripCPEESProducer'
+  ComponentName: string tracked  = 'stripCPE'
+  ComponentType: string tracked  = 'SimpleStripCPE'
+  parameters: PSet tracked = ({
+  })
+ }
+ESModule: idealForDigiTrackerGeometry SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'idealForDigiTrackerGeometry'
+  @module_type: string tracked  = 'TrackerDigiGeometryESModule'
+  alignmentsLabel: string tracked  = 'fakeForIdeal'
+  appendToDataLabel: string tracked  = 'idealForDigi'
+  applyAlignment: bool tracked  = false
+  fromDDD: bool tracked  = false
+ }
+ESModule: trackerGeometryDB SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'trackerGeometryDB'
+  @module_type: string tracked  = 'TrackerDigiGeometryESModule'
+  alignmentsLabel: string tracked  = ''
+  appendToDataLabel: string tracked  = ''
+  applyAlignment: bool tracked  = true
+  fromDDD: bool tracked  = false
+ }
+ESModule: trackerNumberingGeometryDB SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'trackerNumberingGeometryDB'
+  @module_type: string tracked  = 'TrackerGeometricDetESModule'
+  appendToDataLabel: string tracked  = ''
+  fromDDD: bool tracked  = false
+ }
+ESModule: TrackerRecoGeometryESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'TrackerRecoGeometryESProducer'
+ }
+ESModule: trackerTopology SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'trackerTopology'
+  @module_type: string tracked  = 'TrackerTopologyEP'
+  appendToDataLabel: string tracked  = ''
+ }
+ESModule: VolumeBasedMagneticFieldESProducer SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'VolumeBasedMagneticFieldESProducer'
+  @module_type: string tracked  = 'VolumeBasedMagneticFieldESProducerFromDB'
+  valueOverride: int32 tracked  = -1
+ }
+ESModule: XMLFromDBSource SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = 'XMLFromDBSource'
+  @module_type: string tracked  = 'XMLIdealGeometryESProducer'
+  label: string tracked  = 'Extended'
+  rootDDName: string tracked  = 'cms:OCMS'
+ }
+ESModule: ZdcGeometryFromDBEP SIM
+ parameters: {
+  @module_edm_type: string tracked  = 'ESProducer'
+  @module_label: string tracked  = ''
+  @module_type: string tracked  = 'ZdcGeometryFromDBEP'
+  applyAlignment: bool tracked  = false
+ }
